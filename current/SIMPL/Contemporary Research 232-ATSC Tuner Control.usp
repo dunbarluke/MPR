@@ -1,0 +1,227 @@
+/***********************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+***********************************************************************************/
+/*
+Dealer Name:	Crestron Electronics
+System Name:
+System Number:
+Programmer:		GM for Contemporary Research 232-ATSC
+Comments:
+*/
+/***********************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+***********************************************************************************/
+#SYMBOL_NAME "Contemporary Research 232-ATSC Tuner Control"
+// #HINT ""
+#DEFINE_CONSTANT	csCommand				">"
+#DEFINE_CONSTANT	csChannelFlag1			"-"
+#DEFINE_CONSTANT	csChannelFlag2			":"
+
+
+#CATEGORY "0"
+#DEFAULT_VOLATILE
+// #DEFAULT_NONVOLATILE
+
+#HELP_BEGIN
+This module is not standalone, and as such only works with the Contemporary Research 232-ATSC module.
+ This module does two things. It fixes the Volume Up and Down commands by using a ramp stop. The other thing this module does
+ is send channel presets to the unit. These presets may be created outside the module and are of the form 12:3\x0A, or 2\x0A.
+ In other words, all preset channel strings must be delimited by \x0A.
+#HELP_END
+
+/***********************************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+  (Uncomment and declare inputs and outputs as needed)
+***********************************************************************************/
+ANALOG_INPUT	Parameterized_Unit_ID,Keypad_Timeout;
+DIGITAL_INPUT	Volume_Up, Volume_Down, Keypad_Enter_Select, Keypad_Clear ;
+BUFFER_INPUT	Demo_Channel_Presets_Text_In[24],Channel_Presets_Text_In[24], Channel_Key_In_Text[24];
+
+STRING_OUTPUT   Channel_Key_Out_Text,To_Device;
+ANALOG_OUTPUT   Keypad_Timer_Clear;
+/***********************************************************************************
+  Global Variables
+  (Uncomment and declare global variables as needed)
+  Note:  Be sure to initialize all declared STRING variables as needed
+         For example, in Function Main: myString = "";
+***********************************************************************************/
+INTEGER	iFlag1, iChannel, iTimeout, iSeparator, iValid_Left, iValid_Right, iInvalid;
+STRING	sChannel[24],sTemp1[100], sK_Channel[100];
+/***********************************************************************************
+  Event Handlers
+  (Uncomment and declare additional event handlers as needed)
+***********************************************************************************/
+RELEASE Volume_Up, Volume_Down
+{
+	delay(25);
+	To_Device=">VV\n"; // stop ramping
+}
+
+PUSH Keypad_Enter_Select
+{
+    	if (ATOI(sK_Channel)>0 && len(sK_Channel) <=7)
+    	{ 
+			sK_Channel=">"+ITOA(Parameterized_Unit_ID)+"TC="+sK_Channel+"\n";
+	  		To_Device = sK_Channel;
+	  		sK_Channel="";
+	  		Channel_Key_In_Text=""; // clear out
+			Channel_Key_Out_Text=sK_Channel; // 
+
+  		}
+
+}
+PUSH Keypad_Clear
+{	  		
+			sK_Channel="";
+	  		Channel_Key_In_Text=""; // clear out
+			Channel_Key_Out_Text=sK_Channel; // 
+}
+
+CHANGE Keypad_Timeout
+{
+	  	iTimeout =  Keypad_Timeout;
+		If(iTimeout > 0) //or Time it out and enter it
+		{
+ 			if (ATOI(sK_Channel)>0 && len(sK_Channel) <=7) 
+  			{
+   				sK_Channel=">"+ITOA(Parameterized_Unit_ID)+"TC="+sK_Channel+"\n";
+  				To_Device = sK_Channel;
+ 				sK_Channel="";
+	  			Channel_Key_In_Text=""; // clear out
+  				Channel_Key_Out_Text=sK_Channel;
+  				iTimeout = 0;
+  				Keypad_Timer_Clear = iTimeout;
+
+ 			}
+   		}
+
+}
+
+CHANGE Channel_Key_In_Text
+{ // Start Change
+	if(iFlag1 = 0)
+	{
+		iFlag1 = 1;
+		sK_Channel = sK_Channel+Channel_Key_In_Text; // Build the display string
+		Channel_Key_Out_Text=sK_Channel; // Show Partial output up to Bad entry, Timeout, "CLEAR" or "ENTER"
+
+		iSeparator= find("-",sK_Channel);
+		if (iSeparator = 0) iSeparator= find(":",sK_Channel);
+		if (iSeparator > 0)
+		{
+		 iValid_Left= ATOI(left(sK_Channel, iSeparator-1));
+		 iValid_Right= ATOI(RIGHT(sK_Channel, Len(sK_Channel)-iSeparator));
+		 if (iValid_Left > 999 || iValid_Right > 999)
+		 {
+		 	iInvalid = 1;
+		 }
+		 else
+		 {
+		 	iInvalid = 0;
+		 }
+		 
+		}
+		else
+		{
+			if(ATOI(sK_Channel) > 999) iInvalid = 1;
+		}
+		
+		if(Keypad_Enter_Select || Keypad_Clear || iInvalid)
+		{	sK_Channel="";
+			Channel_Key_Out_Text=sK_Channel;
+			Channel_Key_In_Text ="";
+			iInvalid = 0; // reset invalid data flag 
+		}
+	iFlag1 = 0;
+	}
+	
+	Channel_Key_In_Text ="";
+} // End Change
+
+
+
+
+
+CHANGE Channel_Presets_Text_In
+{
+	//These presets are of the form 12:3\x0A, triggered by digital signals on the module side
+	if(iFlag1 = 0)
+	{
+		iFlag1 = 1;
+		while(find(csChannelFlag1, Channel_Presets_Text_In) > 0 
+		|| find(csChannelFlag2, Channel_Presets_Text_In) > 0
+		|| (find(csChannelFlag1, Channel_Presets_Text_In) = 0 
+		&& find(csChannelFlag2, Channel_Presets_Text_In) = 0 
+		&& ATOI(Channel_Presets_Text_In) > 0 
+		&& ATOI(Channel_Presets_Text_In) < 99))
+
+		{
+			
+			sTemp1 = gather("\x0A", Channel_Presets_Text_In);
+			// Get major channel, make sure it is less than or equal to 99
+			// Get minor channel, make sure it is less than or equal to 99
+			if (ATOI(sTemp1)>0 && ATOI(sTemp1)< 9999)
+			{
+				sTemp1=left(sTemp1, len(sTemp1) - 1);
+				sChannel=">"+ITOA(Parameterized_Unit_ID)+"TC="+sTemp1+"\n";		
+				To_Device = sChannel;
+				
+				ClearBuffer (Channel_Presets_Text_In);
+			}
+				
+		}
+		iFlag1 = 0;
+	}
+}
+CHANGE Demo_Channel_Presets_Text_In
+{
+	//These presets are of the form 12:3\x0A, triggered by digital signals on the demo side
+	if(iFlag1 = 0)
+	{
+		iFlag1 = 1;
+		while(find(csChannelFlag1, Demo_Channel_Presets_Text_In) > 0 
+		|| find(csChannelFlag2, Demo_Channel_Presets_Text_In) > 0
+		|| (find(csChannelFlag1, Demo_Channel_Presets_Text_In) = 0 
+		&& find(csChannelFlag2, Demo_Channel_Presets_Text_In) = 0 
+		&& ATOI(Demo_Channel_Presets_Text_In) > 0 
+		&& ATOI(Demo_Channel_Presets_Text_In) < 99))
+
+		{
+			
+			sTemp1 = gather("\x0A", Demo_Channel_Presets_Text_In);
+			// Get major channel, make sure it is less than or equal to 99
+			// Get minor channel, make sure it is less than or equal to 99
+			if (ATOI(sTemp1)>0 && ATOI(sTemp1)< 9999)
+			{
+				sTemp1=left(sTemp1, len(sTemp1) - 1);
+				sChannel=">"+ITOA(Parameterized_Unit_ID)+"TC="+sTemp1+"\n";		
+				To_Device = sChannel;
+				
+				ClearBuffer (Demo_Channel_Presets_Text_In);
+			}
+				
+		}
+		iFlag1 = 0;
+	}
+}
+
+
+/***********************************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+***********************************************************************************/
+Function Main()
+{
+	iFlag1 = 0;
+	sTemp1 = "";
+	sK_Channel = "";
+  	ClearBuffer(Channel_Key_In_Text); // clear in
+  	ClearBuffer(Demo_Channel_Presets_Text_In);
+  	ClearBuffer(Channel_Presets_Text_In);
+  	Channel_Key_Out_Text=""; // clear out
+  	iTimeout = 0;
+  	iInvalid = 0;
+}

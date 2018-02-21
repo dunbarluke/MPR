@@ -1,0 +1,283 @@
+/***********************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+***********************************************************************************/
+/*
+Dealer Name:	Crestron Electronics
+System Name:
+System Number:
+Programmer:		GM 6/2/08
+Comments:
+*/
+/***********************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+***********************************************************************************/
+#SYMBOL_NAME "Contemporary Research 232-ATSC Feedback Processor"
+#HINT "Contemporary Research 232-ATSC Feedback Processor"
+
+#DEFINE_CONSTANT	csStart				"<"
+#DEFINE_CONSTANT	csChannelSource		"T"
+#DEFINE_CONSTANT	csAudioStatus		"V"
+#DEFINE_CONSTANT	csFrontPanelMode	"S"
+#DEFINE_CONSTANT	csModeResponse		"Q"
+
+#CATEGORY "0" 
+#DEFAULT_VOLATILE
+#HELP_BEGIN
+This module is not standalone, and as such only works with the Contemporary Research 232-ATSC module.
+ It parses and processes return function data from the Contemporary Research 232-ATSC.
+#HELP_END
+
+// #DEFAULT_NONVOLATILE
+/*
+#HELP_BEGIN
+   (add additional lines of help lines)
+#HELP_END
+*/
+/***********************************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+  (Uncomment and declare inputs and outputs as needed)
+***********************************************************************************/
+BUFFER_INPUT	From_Device[200];
+ANALOG_INPUT	Parameterized_Unit_ID;
+
+ANALOG_OUTPUT	Power_Status_Analog,Audio_Status_Power_Analog;
+
+
+STRING_OUTPUT   Channel_Text;		
+				
+ANALOG_OUTPUT	Volume_Actual_Analog, Volume_Mute_Status_Analog;
+						
+ANALOG_OUTPUT	CC_Status_Analog, CC_Type_Analog, Video_Detect_Analog, 
+				AV_Detect_Analog, Label_Analog, IR_Status_Analog,  
+				Digital_CC_Analog,
+				
+				Video_Mute_Status_Analog, Input_RF_Analog, RF_Status_Analog,
+				Received_Resolution_Analog,
+				
+				Output_Analog, Output_Resolution_Analog, Output_Setting_Analog,
+				F_Panel_Lock_Analog;
+
+/***********************************************************************************
+  Global Variables
+  (Uncomment and declare global variables as needed)
+  Note:  Be sure to initialize all declared STRING variables as needed
+         For example, in Function Main: myString = "";
+***********************************************************************************/
+INTEGER	iTemp,  iFlag1, Ch_Src_Maj_Ch_Analog,Ch_Src_Min_Ch_Analog;
+STRING	sTemp[100], sTemp1[100], 
+		sUnit_Response_T[4],
+		sUnit_Response_V[4],
+		sUnit_Response_S[4],
+		sUnit_Response_Q[4]; 
+
+//   Event Handlers
+//***********************************************************************************/
+CHANGE From_Device
+{
+	if(iFlag1 = 0)
+	{
+		iFlag1 = 1;
+		while(find(csStart, From_Device) > 0)
+		{
+			sTemp = gather("\x0A", From_Device);
+			sUnit_Response_T=ITOA(Parameterized_Unit_ID)+csChannelSource;
+			sUnit_Response_V=ITOA(Parameterized_Unit_ID)+csAudioStatus;
+			sUnit_Response_S=ITOA(Parameterized_Unit_ID)+csFrontPanelMode;
+			sUnit_Response_Q=ITOA(Parameterized_Unit_ID)+csModeResponse;
+			if(find(sUnit_Response_T, sTemp) > 0) // T
+			{
+				sTemp1=mid(sTemp,4,1);
+				if (find("U", sTemp1) > 0) 
+					Power_Status_Analog =1;
+				if (find("M", sTemp1) > 0) 
+					Power_Status_Analog=0;
+
+				sTemp1=mid(sTemp,5,3);
+				Ch_Src_Maj_Ch_Analog=ATOI(sTemp1);
+	
+				sTemp1=mid(sTemp,8,1);
+				if (find("U", sTemp1) > 0)
+				{
+					Video_Mute_Status_Analog = 0; 
+				}
+				Else			
+				{
+					Video_Mute_Status_Analog = 1;			
+				}
+
+				sTemp1=mid(sTemp,9,1);
+				if (find("U", sTemp1) > 0)
+				{ 
+					Input_RF_Analog = 0; // 0 is RF (Not sure why not 1?)
+				}
+
+					 
+				sTemp1= mid(sTemp,10,1);
+				if (find("A", sTemp1) > 0)
+				{ 
+					RF_Status_Analog = 1; // AIR
+				}
+				if (find("C", sTemp1) > 0) 
+				{
+					RF_Status_Analog = 2; // Cable
+				}
+
+
+				sTemp1=mid(sTemp,11,1); 
+				if (find("0", sTemp1) > 0)
+				{ 
+				Received_Resolution_Analog = 0; //1080i
+				}
+				if (find("1", sTemp1) > 0)
+				{ 
+				Received_Resolution_Analog = 1; // 720p
+				}
+				if (find("2", sTemp1) > 0)
+				{ 
+				Received_Resolution_Analog = 2; //480p
+				}
+				if (find("3", sTemp1) > 0)
+				{ 
+				Received_Resolution_Analog = 3; // 480i
+				}
+				if (find("N", sTemp1) > 0)
+				{ 
+				Received_Resolution_Analog = 4; // No res 
+				}
+
+
+				sTemp1 = mid(sTemp,12,3);
+				Ch_Src_Min_Ch_Analog=ATOI(sTemp1);
+				if (Ch_Src_Min_Ch_Analog > 0)
+					Channel_Text = ITOA(Ch_Src_Maj_Ch_Analog)+"-" + ITOA(Ch_Src_Min_Ch_Analog);
+				Else
+					Channel_Text = ITOA(Ch_Src_Maj_Ch_Analog);
+               
+				
+				sTemp1 = "";
+				sTemp = "";
+
+			} // End First If
+			// Begin First Else
+			else if(find(sUnit_Response_V, sTemp) > 0) //V
+			{
+				sTemp1=mid(sTemp,4,1);
+
+				if (find("U", sTemp1) > 0) 
+					Audio_Status_Power_Analog=1;
+				if (find("M", sTemp1) > 0) 
+					Audio_Status_Power_Analog=0;
+			               	
+				sTemp1=mid(sTemp,7,1);
+				if (find("M", sTemp1) > 0)
+				{ 
+					Volume_Mute_Status_Analog = 1;
+				}
+				if (find("U", sTemp1) > 0)
+				{ 
+					Volume_Mute_Status_Analog = 0;
+				}
+               	
+               	
+				// Need Volume 1 0-63 and Volume 2 0-100
+				
+				sTemp1 =  mid(sTemp,9,3);
+				Volume_Actual_Analog = ATOI(sTemp1);
+
+				sTemp1 = "";
+				sTemp = "";
+			} // End First Else
+			else if(find(sUnit_Response_S, sTemp) > 0) //S
+			{
+
+				F_Panel_Lock_Analog=ATOI(mid(sTemp,6,1));
+
+				sTemp1=mid(sTemp,10,1);
+				if (find("0", sTemp1) > 0)
+				{
+					Output_Analog = 0; //RGB
+				}
+				
+				if (find("2", sTemp1) > 0)
+				{
+					Output_Analog = 2; // YPbPr
+				}
+
+				sTemp1=mid(sTemp,11,1);
+				if (find("0", sTemp1) > 0)
+				{
+					Output_Resolution_Analog = 0;
+				}
+				if (find("1", sTemp1) > 0)
+				{
+					Output_Resolution_Analog = 1;
+				}
+				if (find("2", sTemp1) > 0)
+				{
+					Output_Resolution_Analog = 2;
+				}
+				if (find("3", sTemp1) > 0)
+				{
+					Output_Resolution_Analog =3;
+				}
+
+				sTemp1=mid(sTemp,12,1);
+				if (find("0", sTemp1) > 0)
+				{
+					Output_Setting_Analog = 0;
+				}
+				if (find("1", sTemp1) > 0)
+				{
+					Output_Setting_Analog = 1;
+				}
+				if (find("2", sTemp1) > 0)
+				{
+					Output_Setting_Analog = 2;
+				}
+				if (find("3", sTemp1) > 0)
+				{
+					Output_Setting_Analog = 3;
+				}
+
+				sTemp1 = "";
+				sTemp = "";
+			}
+			else if(find(sUnit_Response_Q, sTemp) > 0) //Q
+				{
+				// Analogs are: CC_Status, CC_Type, Video_Detect, AV_Detect, Label, IR_Status, Q6_Status, Digital_CC
+				CC_Status_Analog = ATOI(mid(sTemp,4,1));
+
+				CC_Type_Analog = ATOI(mid(sTemp,5,1));
+				
+ 				sTemp1=mid(sTemp,6,1);
+				Video_Detect_Analog=ATOI(mid(sTemp,6,1));
+						
+				AV_Detect_Analog=ATOI(mid(sTemp,7,1));
+						
+			       Label_Analog=ATOI(mid(sTemp,8,1));
+						
+				IR_Status_Analog = ATOI(mid(sTemp,9,1));
+	
+				Digital_CC_Analog = ATOI(mid(sTemp,11,1));
+				sTemp1 = "";
+				sTemp = "";
+			}
+
+		} // End While
+		iFlag1 = 0;
+	} //End First If
+} // End Change
+/***********************************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+***********************************************************************************/
+Function Main()
+{
+	iFlag1 = 0;
+	sTemp = "";
+	sTemp1 = "";
+	iTemp = 100;
+}

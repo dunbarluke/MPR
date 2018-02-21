@@ -1,0 +1,6881 @@
+[
+Version=1
+]
+[
+ObjTp=FSgntr
+Sgntr=UserMacro
+RelVrs=2.10.25
+IntStrVrs=2
+MinSMWVrs=0
+MinTIOVrs=0
+SavedBy=SMW2.10.25
+]
+[
+ObjTp=Hd
+S0Nd=1
+S1Nd=2
+SLNd=3
+PrNm=Contemporary Research 232-ATSC.umc
+DbVr=19.06.010
+PgmNm=GM
+DlrNm=Crestron Electronics
+CltNm=Contemporary Research 232-ATSC
+Incl=362,378,380,405,407,408,409,478,522,537,554,586,590,611,624,767,830,883,1032,1062,1079,1134,1157,1199,1220,
+McNm=Contemporary Research 232-ATSC
+SmVr=541
+DvVr=541
+TpN1=1
+TpN2=2
+TpN3=3
+TpN4=4
+TpN5=5
+PdfHelp=Contemporary Research 232-ATSC Help.pdf
+DT=TV Tuner
+DST=TV Tuner
+Mfg=Contemporary Research
+NumMdl=1
+Mdl1=232-ATSC
+Tmpl=Contemporary Research 232-ATSC
+APg=1
+StdCmd=1
+FltTmp=1
+FpCS=362
+]
+[
+ObjTp=Bk
+Nm1=\
+Sx1=0
+Sy1=0
+Mx1=0
+]
+[
+ObjTp=Symbol
+Name=Contemporary Research 232-ATSC
+Code=1
+SmplCName=Contemporary Research 232-ATSC.umc
+Smpl-C=3
+CompilerTimePrecision=Single_Or_Double_Precision
+Exclusions=1,19,20,21,88,89,167,168,179,216,225,248,249,266,310,718,756,854,
+Hint=Contemporary Research 232-ATSC
+SMWRev=0
+TIORev=0
+S+=1
+HelpID=1055
+PdfHelp=Contemporary Research 232-ATSC Help.pdf
+DT=TV Tuner
+DST=TV Tuner
+Mfg=Contemporary Research
+NumMdl=1
+Mdl1=232-ATSC
+Tmpl=Contemporary Research 232-ATSC
+APg=1
+StdCmd=0
+FltTmp=1
+FpCS=362
+NumFixedInputs=130
+NumFixedOutputs=130
+NumFixedParams=22
+MinVariableInputs=0
+MinVariableInputsList2=0
+MinVariableInputsList3=0
+MinVariableOutputs=0
+MinVariableOutputsList2=0
+MinVariableOutputsList3=0
+MinVariableParams=0
+SymbolTree=37
+InputSigType1=Digital
+InputSigType2=Digital
+InputSigType3=Digital
+InputSigType4=Digital
+InputSigType5=Digital
+InputSigType6=Digital
+InputSigType7=Digital
+InputSigType8=Digital
+InputSigType9=Digital
+InputSigType10=Digital
+InputSigType11=Serial
+InputSigType12=Digital
+InputSigType13=Digital
+InputSigType14=Digital
+InputSigType15=Digital
+InputSigType16=Digital
+InputSigType17=Digital
+InputSigType18=Digital
+InputSigType19=Digital
+InputSigType20=Digital
+InputSigType21=Digital
+InputSigType22=Digital
+InputSigType23=Digital
+InputSigType24=Digital
+InputSigType25=Digital
+InputSigType26=Digital
+InputSigType27=Digital
+InputSigType28=Digital
+InputSigType29=Digital
+InputSigType30=Digital
+InputSigType31=Digital
+InputSigType32=Digital
+InputSigType33=Digital
+InputSigType34=Digital
+InputSigType35=Digital
+InputSigType36=Digital
+InputSigType37=Digital
+InputSigType38=Digital|Analog|Serial|String
+InputSigType39=Digital
+InputSigType40=Digital
+InputSigType41=Digital
+InputSigType42=Digital
+InputSigType43=Digital
+InputSigType44=Digital
+InputSigType45=Digital
+InputSigType46=Digital
+InputSigType47=Digital
+InputSigType48=Digital
+InputSigType49=Digital
+InputSigType50=Digital
+InputSigType51=Digital
+InputSigType52=Digital
+InputSigType53=Digital
+InputSigType54=Digital
+InputSigType55=Digital
+InputSigType56=Digital
+InputSigType57=Digital
+InputSigType58=Digital
+InputSigType59=Digital
+InputSigType60=Digital
+InputSigType61=Digital
+InputSigType62=Digital
+InputSigType63=Digital
+InputSigType64=Digital
+InputSigType65=Digital
+InputSigType66=Digital
+InputSigType67=Digital
+InputSigType68=Digital
+InputSigType69=Digital
+InputSigType70=Digital
+InputSigType71=Digital
+InputSigType72=Digital
+InputSigType73=Digital
+InputSigType74=Digital
+InputSigType75=Digital
+InputSigType76=Digital
+InputSigType77=Digital
+InputSigType78=Digital
+InputSigType79=Digital
+InputSigType80=Digital|Analog|Serial|String
+InputSigType81=Digital
+InputSigType82=Digital
+InputSigType83=Digital
+InputSigType84=Digital
+InputSigType85=Digital
+InputSigType86=Digital
+InputSigType87=Digital
+InputSigType88=Digital
+InputSigType89=Digital
+InputSigType90=Digital
+InputSigType91=Digital
+InputSigType92=Digital
+InputSigType93=Digital
+InputSigType94=Digital
+InputSigType95=Digital
+InputSigType96=Digital
+InputSigType97=Digital
+InputSigType98=Digital
+InputSigType99=Digital|Analog|Serial|String
+InputSigType100=Digital
+InputSigType101=Digital
+InputSigType102=Digital
+InputSigType103=Digital
+InputSigType104=Digital
+InputSigType105=Digital
+InputSigType106=Digital
+InputSigType107=Digital
+InputSigType108=Digital|Analog|Serial|String
+InputSigType109=Digital|Analog|Serial|String
+InputSigType110=Digital|Analog|Serial|String
+InputSigType111=Digital|Analog|Serial|String
+InputSigType112=Digital|Analog|Serial|String
+InputSigType113=Digital|Analog|Serial|String
+InputSigType114=Digital|Analog|Serial|String
+InputSigType115=Digital|Analog|Serial|String
+InputSigType116=Digital|Analog|Serial|String
+InputSigType117=Digital|Analog|Serial|String
+InputSigType118=Digital|Analog|Serial|String
+InputSigType119=Digital|Analog|Serial|String
+InputSigType120=Digital|Analog|Serial|String
+InputSigType121=Digital|Analog|Serial|String
+InputSigType122=Digital|Analog|Serial|String
+InputSigType123=Digital|Analog|Serial|String
+InputSigType124=Digital|Analog|Serial|String
+InputSigType125=Digital|Analog|Serial|String
+InputSigType126=Digital|Analog|Serial|String
+InputSigType127=Digital|Analog|Serial|String
+InputSigType128=Digital|Analog|Serial|String
+InputSigType129=Digital
+InputSigType130=Serial
+OutputSigType1=Digital
+OutputSigType2=Digital
+OutputSigType3=Digital|Analog|Serial|String
+OutputSigType4=Analog
+OutputSigType5=Digital|Analog|Serial|String
+OutputSigType6=Digital
+OutputSigType7=Digital
+OutputSigType8=Digital|Analog|Serial|String
+OutputSigType9=Serial
+OutputSigType10=Serial
+OutputSigType11=Digital|Analog|Serial|String
+OutputSigType12=Digital
+OutputSigType13=Digital
+OutputSigType14=Digital
+OutputSigType15=Digital
+OutputSigType16=Digital
+OutputSigType17=Digital
+OutputSigType18=Digital
+OutputSigType19=Digital
+OutputSigType20=Digital
+OutputSigType21=Digital
+OutputSigType22=Digital
+OutputSigType23=Digital
+OutputSigType24=Digital
+OutputSigType25=Digital
+OutputSigType26=Digital
+OutputSigType27=Digital
+OutputSigType28=Digital
+OutputSigType29=Digital
+OutputSigType30=Digital
+OutputSigType31=Digital
+OutputSigType32=Digital
+OutputSigType33=Digital
+OutputSigType34=Digital|Analog|Serial|String
+OutputSigType35=Digital|Analog|Serial|String
+OutputSigType36=Digital|Analog|Serial|String
+OutputSigType37=Digital|Analog|Serial|String
+OutputSigType38=Digital|Analog|Serial|String
+OutputSigType39=Digital|Analog|Serial|String
+OutputSigType40=Digital|Analog|Serial|String
+OutputSigType41=Digital|Analog|Serial|String
+OutputSigType42=Digital|Analog|Serial|String
+OutputSigType43=Digital|Analog|Serial|String
+OutputSigType44=Digital|Analog|Serial|String
+OutputSigType45=Digital|Analog|Serial|String
+OutputSigType46=Digital|Analog|Serial|String
+OutputSigType47=Digital|Analog|Serial|String
+OutputSigType48=Digital|Analog|Serial|String
+OutputSigType49=Digital|Analog|Serial|String
+OutputSigType50=Digital|Analog|Serial|String
+OutputSigType51=Digital|Analog|Serial|String
+OutputSigType52=Digital|Analog|Serial|String
+OutputSigType53=Digital|Analog|Serial|String
+OutputSigType54=Digital|Analog|Serial|String
+OutputSigType55=Digital|Analog|Serial|String
+OutputSigType56=Digital|Analog|Serial|String
+OutputSigType57=Digital|Analog|Serial|String
+OutputSigType58=Digital|Analog|Serial|String
+OutputSigType59=Digital|Analog|Serial|String
+OutputSigType60=Digital|Analog|Serial|String
+OutputSigType61=Digital|Analog|Serial|String
+OutputSigType62=Digital|Analog|Serial|String
+OutputSigType63=Digital|Analog|Serial|String
+OutputSigType64=Digital|Analog|Serial|String
+OutputSigType65=Digital|Analog|Serial|String
+OutputSigType66=Digital|Analog|Serial|String
+OutputSigType67=Digital|Analog|Serial|String
+OutputSigType68=Digital
+OutputSigType69=Digital
+OutputSigType70=Digital
+OutputSigType71=Digital
+OutputSigType72=Digital
+OutputSigType73=Digital
+OutputSigType74=Digital
+OutputSigType75=Digital
+OutputSigType76=Digital
+OutputSigType77=Digital
+OutputSigType78=Digital
+OutputSigType79=Digital
+OutputSigType80=Digital|Analog|Serial|String
+OutputSigType81=Digital
+OutputSigType82=Digital
+OutputSigType83=Digital
+OutputSigType84=Digital
+OutputSigType85=Digital
+OutputSigType86=Digital
+OutputSigType87=Digital|Analog|Serial|String
+OutputSigType88=Digital|Analog|Serial|String
+OutputSigType89=Digital|Analog|Serial|String
+OutputSigType90=Digital|Analog|Serial|String
+OutputSigType91=Digital|Analog|Serial|String
+OutputSigType92=Digital|Analog|Serial|String
+OutputSigType93=Digital|Analog|Serial|String
+OutputSigType94=Digital|Analog|Serial|String
+OutputSigType95=Digital|Analog|Serial|String
+OutputSigType96=Digital|Analog|Serial|String
+OutputSigType97=Digital|Analog|Serial|String
+OutputSigType98=Digital|Analog|Serial|String
+OutputSigType99=Digital|Analog|Serial|String
+OutputSigType100=Digital
+OutputSigType101=Digital
+OutputSigType102=Digital
+OutputSigType103=Digital
+OutputSigType104=Digital
+OutputSigType105=Digital
+OutputSigType106=Digital
+OutputSigType107=Digital
+OutputSigType108=Digital|Analog|Serial|String
+OutputSigType109=Digital
+OutputSigType110=Digital
+OutputSigType111=Digital
+OutputSigType112=Digital
+OutputSigType113=Digital
+OutputSigType114=Digital
+OutputSigType115=Digital
+OutputSigType116=Digital
+OutputSigType117=Digital
+OutputSigType118=Digital|Analog|Serial|String
+OutputSigType119=Digital
+OutputSigType120=Digital
+OutputSigType121=Digital
+OutputSigType122=Digital
+OutputSigType123=Digital
+OutputSigType124=Digital|Analog|Serial|String
+OutputSigType125=Digital
+OutputSigType126=Digital
+OutputSigType127=Digital
+OutputSigType128=Digital|Analog|Serial|String
+OutputSigType129=Digital
+OutputSigType130=Serial
+ParamSigType1=String
+ParamSigType2=String
+ParamSigType3=String
+ParamSigType4=String
+ParamSigType5=String
+ParamSigType6=String
+ParamSigType7=String
+ParamSigType8=String
+ParamSigType9=String
+ParamSigType10=String
+ParamSigType11=String
+ParamSigType12=String
+ParamSigType13=String
+ParamSigType14=String
+ParamSigType15=String
+ParamSigType16=String
+ParamSigType17=String
+ParamSigType18=String
+ParamSigType19=String
+ParamSigType20=String
+ParamSigType21=String
+ParamSigType22=String
+InputCue1=Power_On
+InputCue2=Power_Off
+InputCue3=Power_Toggle
+InputCue4=Volume_Up
+InputCue5=Volume_Down
+InputCue6=Mute_On
+InputCue7=Mute_Off
+InputCue8=Mute_Toggle
+InputCue9=Channel_Up
+InputCue10=Channel_Down
+InputCue11=Demo_Channel_Presets_Text_In
+InputCue12=Channel_Preset_1
+InputCue13=Channel_Preset_2
+InputCue14=Channel_Preset_3
+InputCue15=Channel_Preset_4
+InputCue16=Channel_Preset_5
+InputCue17=Channel_Preset_6
+InputCue18=Channel_Preset_7
+InputCue19=Channel_Preset_8
+InputCue20=Channel_Preset_9
+InputCue21=Channel_Preset_10
+InputCue22=Channel_Preset_11
+InputCue23=Channel_Preset_12
+InputCue24=Channel_Preset_13
+InputCue25=Channel_Preset_14
+InputCue26=Channel_Preset_15
+InputCue27=Channel_Preset_16
+InputCue28=Channel_Preset_17
+InputCue29=Channel_Preset_18
+InputCue30=Channel_Preset_19
+InputCue31=Channel_Preset_20
+InputCue32=Keypad_Cable
+InputCue33=Keypad_Off_Air
+InputCue34=Keypad_Off_Air/Cable_Cycle
+InputCue35=Tuning_Format_IRC
+InputCue36=Tuning_Format_HRC
+InputCue37=Tuning_Format_Cable_Auto
+InputCue38=[~UNUSED~]
+InputCue39=Keypad_0
+InputCue40=Keypad_1
+InputCue41=Keypad_2
+InputCue42=Keypad_3
+InputCue43=Keypad_4
+InputCue44=Keypad_5
+InputCue45=Keypad_6
+InputCue46=Keypad_7
+InputCue47=Keypad_8
+InputCue48=Keypad_9
+InputCue49=Keypad_Clear
+InputCue50=Keypad_Enter_Select
+InputCue51=Keypad_Dash_-
+InputCue52=Keypad_Menu
+InputCue53=Keypad_Freeze
+InputCue54=Keypad_Signal
+InputCue55=Keypad_Ratio
+InputCue56=Keypad_Audio
+InputCue57=Keypad_Favorite
+InputCue58=Keypad_List
+InputCue59=Keypad_Add/Delete_Channel
+InputCue60=Keypad_Info
+InputCue61=Keypad_Previous_Channel
+InputCue62=Keypad_Arrow_Right
+InputCue63=Keypad_Arrow_Left
+InputCue64=Keypad_Arrow_Up
+InputCue65=Keypad_Arrow_Down
+InputCue66=Keypad_Enter_Select_2
+InputCue67=Keypad_Exit
+InputCue68=Closed_Caption_On
+InputCue69=Closed_Caption_Off
+InputCue70=Closed_Caption_1
+InputCue71=Closed_Caption_2
+InputCue72=Closed_Caption_3
+InputCue73=Closed_Caption_4
+InputCue74=Digital_Caption_1
+InputCue75=Digital_Caption_2
+InputCue76=Digital_Caption_3
+InputCue77=Digital_Caption_4
+InputCue78=Digital_Caption_5
+InputCue79=Digital_Caption_6
+InputCue80=[~UNUSED~]
+InputCue81=Keypad_Format_Resolution_1080i
+InputCue82=Keypad_Format_Resolution_720p
+InputCue83=Keypad_Format_Resolution_480p
+InputCue84=Keypad_Format_Resolution_480i
+InputCue85=Keypad_Format_Resolution_RGB
+InputCue86=Keypad_Format_Resolution_YPbPr
+InputCue87=Keypad_Ratio_16x9_Pillar
+InputCue88=Keypad_Ratio_4x3_Letter
+InputCue89=Keypad_Ratio_16x9_Full_Wide
+InputCue90=Keypad_Ratio_4x3_Full
+InputCue91=Keypad_Ratio_16x9_V_Zoom
+InputCue92=Keypad_Ratio_4x3_H_Zoom
+InputCue93=Keypad_AC-3_Dolby_5.1
+InputCue94=Keypad_PCM
+InputCue95=Keypad_PCM_Variable_Bit_Rate
+InputCue96=Keypad_Display_16x9
+InputCue97=Keypad_Display_4x3
+InputCue98=Keypad_Guide
+InputCue99=[~UNUSED~]
+InputCue100=Front_Panel_Unlock
+InputCue101=Front_Panel_Lockout_Channel
+InputCue102=Front_Panel_Lockout_Volume
+InputCue103=Front_Panel_Lockout_Channel_and_Volume
+InputCue104=Front_Panel_Lockout_Power
+InputCue105=Front_Panel_Lockout_Channel_and_Power
+InputCue106=Front_Panel_Lockout_Volume_and_Power
+InputCue107=Front_Panel_Lockout_All
+InputCue108=[~UNUSED~]
+InputCue109=[~UNUSED~]
+InputCue110=[~UNUSED~]
+InputCue111=[~UNUSED~]
+InputCue112=[~UNUSED~]
+InputCue113=[~UNUSED~]
+InputCue114=[~UNUSED~]
+InputCue115=[~UNUSED~]
+InputCue116=[~UNUSED~]
+InputCue117=[~UNUSED~]
+InputCue118=[~UNUSED~]
+InputCue119=[~UNUSED~]
+InputCue120=[~UNUSED~]
+InputCue121=[~UNUSED~]
+InputCue122=[~UNUSED~]
+InputCue123=[~UNUSED~]
+InputCue124=[~UNUSED~]
+InputCue125=[~UNUSED~]
+InputCue126=[~UNUSED~]
+InputCue127=[~UNUSED~]
+InputCue128=[~UNUSED~]
+InputCue129=Get_Status
+InputCue130=From_Device
+OutputCue1=Power_is_On
+OutputCue2=Power_is_Off
+OutputCue3=[~UNUSED~]
+OutputCue4=Volume_Bar
+OutputCue5=[~UNUSED~]
+OutputCue6=Mute_is_On
+OutputCue7=Mute_is_Off
+OutputCue8=[~UNUSED~]
+OutputCue9=Channel_Text
+OutputCue10=Channel_Key_Out_Text
+OutputCue11=[~UNUSED~]
+OutputCue12=Channel_Preset_1_is_On
+OutputCue13=Channel_Preset_2_is_On
+OutputCue14=Channel_Preset_3_is_On
+OutputCue15=Channel_Preset_4_is_On
+OutputCue16=Channel_Preset_5_is_On
+OutputCue17=Channel_Preset_6_is_On
+OutputCue18=Channel_Preset_7_is_On
+OutputCue19=Channel_Preset_8_is_On
+OutputCue20=Channel_Preset_9_is_On
+OutputCue21=Channel_Preset_10_is_On
+OutputCue22=Channel_Preset_11_is_On
+OutputCue23=Channel_Preset_12_is_On
+OutputCue24=Channel_Preset_13_is_On
+OutputCue25=Channel_Preset_14_is_On
+OutputCue26=Channel_Preset_15_is_On
+OutputCue27=Channel_Preset_16_is_On
+OutputCue28=Channel_Preset_17_is_On
+OutputCue29=Channel_Preset_18_is_On
+OutputCue30=Channel_Preset_19_is_On
+OutputCue31=Channel_Preset_20_is_On
+OutputCue32=Signal_is_Cable
+OutputCue33=Signal_is_Off_Air
+OutputCue34=[~UNUSED~]
+OutputCue35=[~UNUSED~]
+OutputCue36=[~UNUSED~]
+OutputCue37=[~UNUSED~]
+OutputCue38=[~UNUSED~]
+OutputCue39=[~UNUSED~]
+OutputCue40=[~UNUSED~]
+OutputCue41=[~UNUSED~]
+OutputCue42=[~UNUSED~]
+OutputCue43=[~UNUSED~]
+OutputCue44=[~UNUSED~]
+OutputCue45=[~UNUSED~]
+OutputCue46=[~UNUSED~]
+OutputCue47=[~UNUSED~]
+OutputCue48=[~UNUSED~]
+OutputCue49=[~UNUSED~]
+OutputCue50=[~UNUSED~]
+OutputCue51=[~UNUSED~]
+OutputCue52=[~UNUSED~]
+OutputCue53=[~UNUSED~]
+OutputCue54=[~UNUSED~]
+OutputCue55=[~UNUSED~]
+OutputCue56=[~UNUSED~]
+OutputCue57=[~UNUSED~]
+OutputCue58=[~UNUSED~]
+OutputCue59=[~UNUSED~]
+OutputCue60=[~UNUSED~]
+OutputCue61=[~UNUSED~]
+OutputCue62=[~UNUSED~]
+OutputCue63=[~UNUSED~]
+OutputCue64=[~UNUSED~]
+OutputCue65=[~UNUSED~]
+OutputCue66=[~UNUSED~]
+OutputCue67=[~UNUSED~]
+OutputCue68=Closed_Caption_is_On
+OutputCue69=Closed_Caption_is_Off
+OutputCue70=Closed_Caption_is_Type_1
+OutputCue71=Closed_Caption_is_Type_2
+OutputCue72=Closed_Caption_is_Type_3
+OutputCue73=Closed_Caption_is_Type_4
+OutputCue74=Digital_CC_is_1
+OutputCue75=Digital_CC_is_2
+OutputCue76=Digital_CC_is_3
+OutputCue77=Digital_CC_is_4
+OutputCue78=Digital_CC_is_5
+OutputCue79=Digital_CC_is_6
+OutputCue80=[~UNUSED~]
+OutputCue81=Output_Resolution_is_1080i
+OutputCue82=Output_Resolution_is_720p
+OutputCue83=Output_Resolution_is_480p
+OutputCue84=Output_Resolution_is_480i
+OutputCue85=Output_Signal_is_RGB
+OutputCue86=Output_Signal_is_YPbPr
+OutputCue87=[~UNUSED~]
+OutputCue88=[~UNUSED~]
+OutputCue89=[~UNUSED~]
+OutputCue90=[~UNUSED~]
+OutputCue91=[~UNUSED~]
+OutputCue92=[~UNUSED~]
+OutputCue93=[~UNUSED~]
+OutputCue94=[~UNUSED~]
+OutputCue95=[~UNUSED~]
+OutputCue96=[~UNUSED~]
+OutputCue97=[~UNUSED~]
+OutputCue98=[~UNUSED~]
+OutputCue99=[~UNUSED~]
+OutputCue100=Front_Panel_is_Not_Locked
+OutputCue101=Front_Panel_Lockout_is_Channel
+OutputCue102=Front_Panel_Lockout_is_Volume
+OutputCue103=Front_Panel_Lockout_is_Channel_and_Volume
+OutputCue104=Front_Panel_Lockout_is_Power
+OutputCue105=Front_Panel_Lockout_is_Channel_and_Power
+OutputCue106=Front_Panel_Lockout_is_Volume_and_Power
+OutputCue107=Front_Panel_Lockout_is_All
+OutputCue108=[~UNUSED~]
+OutputCue109=Received_Resolution_is_1080i
+OutputCue110=Received_Resolution_is_720p
+OutputCue111=Received_Resolution_is_480p
+OutputCue112=Received_Resolution_is_480i
+OutputCue113=Received_Resolution_is_No_Signal
+OutputCue114=Output_Setting_is_1080i
+OutputCue115=Output_Setting_is_720p
+OutputCue116=Output_Setting_is_480p
+OutputCue117=Output_Setting_is_480i
+OutputCue118=[~UNUSED~]
+OutputCue119=Video_Detected
+OutputCue120=AV_Detected
+OutputCue121=Label_Detected
+OutputCue122=IR_is_Normal
+OutputCue123=IR_is_Off
+OutputCue124=[~UNUSED~]
+OutputCue125=Video_Mute_is_On
+OutputCue126=Video_Mute_is_Off
+OutputCue127=Input_RF_Detected
+OutputCue128=[~UNUSED~]
+OutputCue129=Get_Status_is_On
+OutputCue130=To_Device
+ParamCue1=Unit_Number
+ParamCue2=Channel_Change_Delay
+ParamCue3=Channel_Preset_1
+ParamCue4=Channel_Preset_2
+ParamCue5=Channel_Preset_3
+ParamCue6=Channel_Preset_4
+ParamCue7=Channel_Preset_5
+ParamCue8=Channel_Preset_6
+ParamCue9=Channel_Preset_7
+ParamCue10=Channel_Preset_8
+ParamCue11=Channel_Preset_9
+ParamCue12=Channel_Preset_10
+ParamCue13=Channel_Preset_11
+ParamCue14=Channel_Preset_12
+ParamCue15=Channel_Preset_13
+ParamCue16=Channel_Preset_14
+ParamCue17=Channel_Preset_15
+ParamCue18=Channel_Preset_16
+ParamCue19=Channel_Preset_17
+ParamCue20=Channel_Preset_18
+ParamCue21=Channel_Preset_19
+ParamCue22=Channel_Preset_20
+MPi=130
+Pi1=47
+Pi2=48
+Pi3=49
+Pi4=201
+Pi5=202
+Pi6=74
+Pi7=75
+Pi8=200
+Pi9=108
+Pi10=109
+Pi11=110
+Pi12=231
+Pi13=232
+Pi14=233
+Pi15=234
+Pi16=255
+Pi17=236
+Pi18=237
+Pi19=238
+Pi20=239
+Pi21=240
+Pi22=241
+Pi23=242
+Pi24=243
+Pi25=244
+Pi26=245
+Pi27=246
+Pi28=247
+Pi29=248
+Pi30=249
+Pi31=250
+Pi32=55
+Pi33=131
+Pi34=132
+Pi35=133
+Pi36=134
+Pi37=135
+Pi39=136
+Pi40=137
+Pi41=138
+Pi42=139
+Pi43=142
+Pi44=143
+Pi45=144
+Pi46=145
+Pi47=146
+Pi48=147
+Pi49=148
+Pi50=149
+Pi51=150
+Pi52=154
+Pi53=155
+Pi54=156
+Pi55=157
+Pi56=158
+Pi57=159
+Pi58=160
+Pi59=161
+Pi60=162
+Pi61=163
+Pi62=165
+Pi63=166
+Pi64=167
+Pi65=168
+Pi66=169
+Pi67=170
+Pi68=171
+Pi69=172
+Pi70=173
+Pi71=174
+Pi72=175
+Pi73=176
+Pi74=177
+Pi75=178
+Pi76=179
+Pi77=180
+Pi78=181
+Pi79=182
+Pi81=183
+Pi82=184
+Pi83=185
+Pi84=186
+Pi85=187
+Pi86=188
+Pi87=192
+Pi88=193
+Pi89=194
+Pi90=195
+Pi91=196
+Pi92=197
+Pi93=198
+Pi94=199
+Pi95=203
+Pi96=204
+Pi97=205
+Pi98=206
+Pi100=207
+Pi101=208
+Pi102=209
+Pi103=210
+Pi104=211
+Pi105=212
+Pi106=213
+Pi107=214
+Pi129=215
+Pi130=107
+MPo=130
+Po1=140
+Po2=141
+Po4=52
+Po6=53
+Po7=54
+Po9=56
+Po10=57
+Po12=229
+Po13=230
+Po14=251
+Po15=252
+Po16=253
+Po17=254
+Po18=235
+Po19=256
+Po20=257
+Po21=258
+Po22=259
+Po23=260
+Po24=261
+Po25=262
+Po26=263
+Po27=264
+Po28=265
+Po29=266
+Po30=267
+Po31=268
+Po32=58
+Po33=59
+Po68=60
+Po69=61
+Po70=62
+Po71=63
+Po72=64
+Po73=65
+Po74=66
+Po75=67
+Po76=68
+Po77=69
+Po78=70
+Po79=71
+Po81=72
+Po82=73
+Po83=76
+Po84=77
+Po85=78
+Po86=79
+Po100=80
+Po101=81
+Po102=82
+Po103=83
+Po104=84
+Po105=85
+Po106=86
+Po107=87
+Po109=88
+Po110=89
+Po111=90
+Po112=91
+Po113=92
+Po114=93
+Po115=94
+Po116=95
+Po117=96
+Po119=97
+Po120=98
+Po121=99
+Po122=100
+Po123=101
+Po125=103
+Po126=104
+Po127=105
+Po129=106
+Po130=269
+MPp=22
+Pp1=50
+Pp2=51
+Pp3=102
+Pp4=151
+Pp5=152
+Pp6=153
+Pp7=164
+Pp8=189
+Pp9=190
+Pp10=191
+Pp11=217
+Pp12=218
+Pp13=219
+Pp14=220
+Pp15=221
+Pp16=222
+Pp17=223
+Pp18=224
+Pp19=225
+Pp20=226
+Pp21=227
+Pp22=228
+CnxLogic1=S SER/Model:134
+CnxLogic2=C O 0130 I Q:tx$
+CnxLogic3=C I 0130 O Q:rx$
+CnxLogic4=S SER/Baud:9600
+CnxLogic5=S SER/Parity:N
+CnxLogic6=S SER/Databits:8
+CnxLogic7=S SER/Stopbits:1
+CnxLogic8=S SER/SWHandshaking:(None)
+CnxLogic9=S SER/HWHandshaking:(None)
+CnxLogic10=S SER/Protocol:(RS232)
+FileName=Contemporary Research 232-ATSC.umc
+]
+[
+ObjTp=Sm
+H=1
+SmC=157
+Nm=Central Control Modules
+ObjVer=1
+CF=2
+n1I=1
+n1O=1
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=2
+SmC=157
+Nm=Network Modules
+ObjVer=1
+CF=2
+n1I=1
+n1O=1
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=3
+SmC=157
+Nm=Ethernet
+ObjVer=1
+CF=2
+n1I=1
+n1O=1
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=4
+SmC=156
+Nm=Logic
+ObjVer=1
+CF=2
+mC=3
+C1=10
+C2=11
+C3=95
+]
+[
+ObjTp=Sm
+H=5
+SmC=157
+Nm=DefineArguments
+ObjVer=1
+CF=2
+n1I=1
+n1O=1
+mC=1
+C1=6
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=6
+SmC=55
+ObjVer=1
+PrH=5
+CF=2
+n1I=130
+n1O=130
+Cmn1=\\\\
+mI=130
+I1=551
+I2=553
+I3=554
+I4=879
+I5=23
+I6=160
+I7=161
+I8=155
+I9=247
+I10=248
+I11=42
+I12=45
+I13=51
+I14=112
+I15=165
+I16=166
+I17=174
+I18=176
+I19=178
+I20=179
+I21=180
+I22=181
+I23=182
+I24=183
+I25=184
+I26=185
+I27=186
+I28=187
+I29=188
+I30=189
+I31=190
+I32=168
+I33=163
+I34=162
+I35=81
+I36=82
+I37=83
+I38=747
+I39=113
+I40=114
+I41=115
+I42=116
+I43=117
+I44=118
+I45=119
+I46=120
+I47=121
+I48=122
+I49=9
+I50=123
+I51=138
+I52=130
+I53=131
+I54=132
+I55=133
+I56=134
+I57=135
+I58=136
+I59=137
+I60=139
+I61=140
+I62=142
+I63=143
+I64=144
+I65=145
+I66=146
+I67=147
+I68=89
+I69=90
+I70=98
+I71=99
+I72=100
+I73=101
+I74=43
+I75=102
+I76=170
+I77=171
+I78=172
+I79=173
+I80=747
+I81=149
+I82=150
+I83=151
+I84=152
+I85=153
+I86=154
+I87=169
+I88=216
+I89=217
+I90=218
+I91=219
+I92=220
+I93=221
+I94=222
+I95=223
+I96=226
+I97=227
+I98=228
+I99=747
+I100=11
+I101=15
+I102=16
+I103=17
+I104=19
+I105=20
+I106=27
+I107=78
+I108=747
+I109=747
+I110=747
+I111=747
+I112=747
+I113=747
+I114=747
+I115=747
+I116=747
+I117=747
+I118=747
+I119=747
+I120=747
+I121=747
+I122=747
+I123=747
+I124=747
+I125=747
+I126=747
+I127=747
+I128=747
+I129=225
+I130=224
+mO=130
+tO=130
+O1=907
+O2=908
+O3=747
+O4=8
+O5=747
+O6=157
+O7=156
+O8=747
+O9=106
+O10=84
+O11=747
+O12=191
+O13=192
+O14=193
+O15=194
+O16=195
+O17=196
+O18=197
+O19=198
+O20=199
+O21=200
+O22=201
+O23=202
+O24=203
+O25=204
+O26=205
+O27=206
+O28=207
+O29=208
+O30=209
+O31=210
+O32=62
+O33=61
+O34=747
+O35=747
+O36=747
+O37=747
+O38=747
+O39=747
+O40=747
+O41=747
+O42=747
+O43=747
+O44=747
+O45=747
+O46=747
+O47=747
+O48=747
+O49=747
+O50=747
+O51=747
+O52=747
+O53=747
+O54=747
+O55=747
+O56=747
+O57=747
+O58=747
+O59=747
+O60=747
+O61=747
+O62=747
+O63=747
+O64=747
+O65=747
+O66=747
+O67=747
+O68=34
+O69=36
+O70=37
+O71=38
+O72=39
+O73=40
+O74=52
+O75=53
+O76=54
+O77=55
+O78=56
+O79=57
+O80=747
+O81=71
+O82=74
+O83=70
+O84=72
+O85=66
+O86=69
+O87=747
+O88=747
+O89=747
+O90=747
+O91=747
+O92=747
+O93=747
+O94=747
+O95=747
+O96=747
+O97=747
+O98=747
+O99=747
+O100=6
+O101=107
+O102=104
+O103=108
+O104=109
+O105=110
+O106=111
+O107=103
+O108=747
+O109=63
+O110=67
+O111=64
+O112=65
+O113=68
+O114=73
+O115=75
+O116=76
+O117=77
+O118=747
+O119=46
+O120=47
+O121=48
+O122=50
+O123=49
+O124=747
+O125=58
+O126=59
+O127=60
+O128=747
+O129=13
+O130=367
+mP=22
+P1=Unit_Number
+P2=Channel_Change_Delay
+P3=Channel_Preset_1
+P4=Channel_Preset_2
+P5=Channel_Preset_3
+P6=Channel_Preset_4
+P7=Channel_Preset_5
+P8=Channel_Preset_6
+P9=Channel_Preset_7
+P10=Channel_Preset_8
+P11=Channel_Preset_9
+P12=Channel_Preset_10
+P13=Channel_Preset_11
+P14=Channel_Preset_12
+P15=Channel_Preset_13
+P16=Channel_Preset_14
+P17=Channel_Preset_15
+P18=Channel_Preset_16
+P19=Channel_Preset_17
+P20=Channel_Preset_18
+P21=Channel_Preset_19
+P22=Channel_Preset_20
+MPi=130
+Pi1=47
+Pi2=48
+Pi3=49
+Pi4=201
+Pi5=202
+Pi6=74
+Pi7=75
+Pi8=200
+Pi9=108
+Pi10=109
+Pi11=110
+Pi12=231
+Pi13=232
+Pi14=233
+Pi15=234
+Pi16=255
+Pi17=236
+Pi18=237
+Pi19=238
+Pi20=239
+Pi21=240
+Pi22=241
+Pi23=242
+Pi24=243
+Pi25=244
+Pi26=245
+Pi27=246
+Pi28=247
+Pi29=248
+Pi30=249
+Pi31=250
+Pi32=55
+Pi33=131
+Pi34=132
+Pi35=133
+Pi36=134
+Pi37=135
+Pi39=136
+Pi40=137
+Pi41=138
+Pi42=139
+Pi43=142
+Pi44=143
+Pi45=144
+Pi46=145
+Pi47=146
+Pi48=147
+Pi49=148
+Pi50=149
+Pi51=150
+Pi52=154
+Pi53=155
+Pi54=156
+Pi55=157
+Pi56=158
+Pi57=159
+Pi58=160
+Pi59=161
+Pi60=162
+Pi61=163
+Pi62=165
+Pi63=166
+Pi64=167
+Pi65=168
+Pi66=169
+Pi67=170
+Pi68=171
+Pi69=172
+Pi70=173
+Pi71=174
+Pi72=175
+Pi73=176
+Pi74=177
+Pi75=178
+Pi76=179
+Pi77=180
+Pi78=181
+Pi79=182
+Pi81=183
+Pi82=184
+Pi83=185
+Pi84=186
+Pi85=187
+Pi86=188
+Pi87=192
+Pi88=193
+Pi89=194
+Pi90=195
+Pi91=196
+Pi92=197
+Pi93=198
+Pi94=199
+Pi95=203
+Pi96=204
+Pi97=205
+Pi98=206
+Pi100=207
+Pi101=208
+Pi102=209
+Pi103=210
+Pi104=211
+Pi105=212
+Pi106=213
+Pi107=214
+Pi129=215
+Pi130=107
+MPo=130
+Po1=140
+Po2=141
+Po4=52
+Po6=53
+Po7=54
+Po9=56
+Po10=57
+Po12=229
+Po13=230
+Po14=251
+Po15=252
+Po16=253
+Po17=254
+Po18=235
+Po19=256
+Po20=257
+Po21=258
+Po22=259
+Po23=260
+Po24=261
+Po25=262
+Po26=263
+Po27=264
+Po28=265
+Po29=266
+Po30=267
+Po31=268
+Po32=58
+Po33=59
+Po68=60
+Po69=61
+Po70=62
+Po71=63
+Po72=64
+Po73=65
+Po74=66
+Po75=67
+Po76=68
+Po77=69
+Po78=70
+Po79=71
+Po81=72
+Po82=73
+Po83=76
+Po84=77
+Po85=78
+Po86=79
+Po100=80
+Po101=81
+Po102=82
+Po103=83
+Po104=84
+Po105=85
+Po106=86
+Po107=87
+Po109=88
+Po110=89
+Po111=90
+Po112=91
+Po113=92
+Po114=93
+Po115=94
+Po116=95
+Po117=96
+Po119=97
+Po120=98
+Po121=99
+Po122=100
+Po123=101
+Po125=103
+Po126=104
+Po127=105
+Po129=106
+Po130=269
+MPp=22
+Pp1=50
+Pp2=51
+Pp3=102
+Pp4=151
+Pp5=152
+Pp6=153
+Pp7=164
+Pp8=189
+Pp9=190
+Pp10=191
+Pp11=217
+Pp12=218
+Pp13=219
+Pp14=220
+Pp15=221
+Pp16=222
+Pp17=223
+Pp18=224
+Pp19=225
+Pp20=226
+Pp21=227
+Pp22=228
+]
+[
+ObjTp=Sm
+H=7
+SmC=101
+ObjVer=1
+PrH=10
+CF=2
+n1I=91
+n1O=10
+Cmn1=Main Control CMDS\\
+mI=91
+I3=551
+I4=553
+I5=4
+I6=5
+I7=21
+I8=24
+I9=160
+I10=161
+I11=158
+I12=159
+I13=249
+I14=250
+I15=79
+I16=80
+I17=81
+I18=82
+I19=83
+I21=127
+I22=128
+I23=129
+I26=130
+I27=131
+I28=132
+I29=133
+I30=134
+I31=135
+I32=136
+I33=137
+I34=162
+I36=139
+I37=140
+I38=141
+I39=142
+I40=143
+I41=144
+I42=145
+I43=146
+I44=147
+I46=149
+I47=150
+I48=151
+I49=152
+I50=153
+I51=154
+I52=163
+I53=168
+I54=169
+I55=216
+I56=217
+I57=218
+I58=219
+I59=220
+I60=221
+I61=222
+I62=223
+I63=226
+I64=227
+I65=228
+I66=89
+I67=90
+I68=98
+I69=99
+I70=100
+I71=101
+I72=43
+I73=102
+I74=170
+I75=171
+I76=172
+I77=173
+I79=11
+I80=15
+I81=16
+I82=17
+I83=19
+I84=20
+I85=27
+I86=78
+I88=7
+I89=213
+I90=214
+I91=215
+mO=10
+tO=10
+O1=367
+mP=99
+P1=\x0D
+P2=>\[#Unit_Number\]P1
+P3=>\[#Unit_Number\]P0
+P4=>\[#Unit_Number\]P1
+P5=>\[#Unit_Number\]P0
+P6=>\[#Unit_Number\]VU
+P7=>\[#Unit_Number\]VD
+P8=>\[#Unit_Number\]VM
+P9=>\[#Unit_Number\]VX
+P10=>\[#Unit_Number\]VM
+P11=>\[#Unit_Number\]VX
+P12=>\[#Unit_Number\]TU
+P13=>\[#Unit_Number\]TD
+P14=>\[#Unit_Number\]S0=0
+P15=>\[#Unit_Number\]S0=1
+P16=>\[#Unit_Number\]S0=2
+P17=>\[#Unit_Number\]S0=3
+P18=>\[#Unit_Number\]S0=4
+P19=
+P20=>\[#Unit_Number\]KK=24
+P21=>\[#Unit_Number\]KK=25
+P22=>\[#Unit_Number\]KK=26
+P23=
+P24=
+P25=>\[#Unit_Number\]KK=29
+P26=>\[#Unit_Number\]KK=80
+P27=>\[#Unit_Number\]KK=81
+P28=>\[#Unit_Number\]KK=82
+P29=>\[#Unit_Number\]KK=85
+P30=>\[#Unit_Number\]KK=88
+P31=>\[#Unit_Number\]KK=95
+P32=>\[#Unit_Number\]KK=96
+P33=>\[#Unit_Number\]KK=98
+P34=
+P35=>\[#Unit_Number\]KK=100
+P36=>\[#Unit_Number\]KK=101
+P37=>\[#Unit_Number\]KK=105
+P38=>\[#Unit_Number\]KK=106
+P39=>\[#Unit_Number\]KK=107
+P40=>\[#Unit_Number\]KK=108
+P41=>\[#Unit_Number\]KK=109
+P42=>\[#Unit_Number\]KK=110
+P43=>\[#Unit_Number\]KK=111
+P44=
+P45=>\[#Unit_Number\]KK=141
+P46=>\[#Unit_Number\]KK=142
+P47=>\[#Unit_Number\]KK=143
+P48=>\[#Unit_Number\]KK=144
+P49=>\[#Unit_Number\]KK=149
+P50=>\[#Unit_Number\]KK=151
+P51=>\[#Unit_Number\]KK=153
+P52=>\[#Unit_Number\]KK=154
+P53=>\[#Unit_Number\]KK=155
+P54=>\[#Unit_Number\]KK=155
+P55=>\[#Unit_Number\]KK=156
+P56=>\[#Unit_Number\]KK=156
+P57=>\[#Unit_Number\]KK=156
+P58=>\[#Unit_Number\]KK=156
+P59=>\[#Unit_Number\]KK=158
+P60=>\[#Unit_Number\]KK=159
+P61=>\[#Unit_Number\]KK=160
+P62=>\[#Unit_Number\]KK=161
+P63=>\[#Unit_Number\]KK=162
+P64=>\[#Unit_Number\]KK=62
+P65=>\[#Unit_Number\]Q0=1
+P66=>\[#Unit_Number\]Q0=0
+P67=>\[#Unit_Number\]Q1=1
+P68=>\[#Unit_Number\]Q1=2
+P69=>\[#Unit_Number\]Q1=3
+P70=>\[#Unit_Number\]Q1=4
+P71=>\[#Unit_Number\]Q7=1
+P72=>\[#Unit_Number\]Q7=2
+P73=>\[#Unit_Number\]Q7=3
+P74=>\[#Unit_Number\]Q7=4
+P75=>\[#Unit_Number\]Q7=5
+P76=>\[#Unit_Number\]Q7=6
+P77=
+P78=>\[#Unit_Number\]S4=0
+P79=>\[#Unit_Number\]S4=1
+P80=>\[#Unit_Number\]S4=2
+P81=>\[#Unit_Number\]S4=3
+P82=>\[#Unit_Number\]S4=4
+P83=>\[#Unit_Number\]S4=5
+P84=>\[#Unit_Number\]S4=6
+P85=>\[#Unit_Number\]S4=7
+P86=
+P87=>\[#Unit_Number\]SQ
+P88=>\[#Unit_Number\]SS
+P89=>\[#Unit_Number\]ST
+P90=>\[#Unit_Number\]SV
+P91=
+P92=
+P93=
+P94=
+P95=
+P96=
+P97=
+P98=
+P99=
+]
+[
+ObjTp=Sm
+H=8
+SmC=98
+ObjVer=1
+PrH=10
+CF=2
+n1I=1
+n1O=5
+mI=1
+I1=225
+mO=5
+tO=5
+O1=13
+O2=7
+O3=213
+O4=214
+O5=215
+mP=8
+P1=0.0s
+P2=0.1s
+P3=0.2s
+P4=0.1s
+P5=0.2s
+P6=0.1s
+P7=0.2s
+P8=0.1s
+]
+[
+ObjTp=Sm
+H=9
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=8
+mI=2
+I1=44
+mO=8
+tO=8
+O1=6
+O2=107
+O3=104
+O4=108
+O5=109
+O6=110
+O7=111
+O8=103
+mP=8
+P1=0d
+P2=1d
+P3=2d
+P4=3d
+P5=4d
+P6=5d
+P7=6d
+P8=7d
+]
+[
+ObjTp=Sm
+H=10
+SmC=156
+ObjVer=1
+PrH=4
+CF=2
+Cmn1=Commands\\
+mC=11
+C1=8
+C2=32
+C3=17
+C4=98
+C5=97
+C6=23
+C7=26
+C8=54
+C9=43
+C10=7
+C11=28
+]
+[
+ObjTp=Sm
+H=11
+SmC=156
+ObjVer=1
+PrH=4
+CF=2
+Cmn1=Feedback\\
+mC=26
+C1=15
+C2=30
+C3=33
+C4=18
+C5=16
+C6=36
+C7=20
+C8=52
+C9=53
+C10=31
+C11=34
+C12=38
+C13=37
+C14=39
+C15=40
+C16=41
+C17=42
+C18=44
+C19=45
+C20=46
+C21=47
+C22=48
+C23=49
+C24=51
+C25=50
+C26=9
+]
+[
+ObjTp=Sm
+H=12
+SmC=156
+ObjVer=1
+PrH=28
+CF=2
+Cmn1=Main Power Toggle\\
+mC=2
+C1=13
+C2=14
+]
+[
+ObjTp=Sm
+H=13
+SmC=13
+ObjVer=1
+PrH=12
+CF=2
+n1I=3
+n1O=2
+mI=3
+I2=10
+I3=554
+mO=2
+tO=2
+O1=10
+]
+[
+ObjTp=Sm
+H=14
+SmC=20
+ObjVer=1
+PrH=12
+CF=2
+n1I=3
+n1O=2
+mI=3
+I1=10
+I2=908
+I3=907
+mO=2
+tO=2
+O1=4
+O2=5
+]
+[
+ObjTp=Sm
+H=15
+SmC=21
+ObjVer=1
+PrH=11
+CF=2
+n1I=7
+n1O=6
+Cmn1=\\
+mI=7
+I2=125
+I3=126
+I4=246
+I5=303
+I6=243
+I7=244
+mO=6
+tO=6
+O1=417
+O2=418
+O3=304
+O4=305
+O5=253
+O6=254
+mP=1
+P1=0.1s
+]
+[
+ObjTp=Sm
+H=16
+SmC=12
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+Cmn1=Main Mute\\
+mI=2
+I1=253
+I2=254
+mO=2
+tO=2
+O1=157
+O2=156
+]
+[
+ObjTp=Sm
+H=17
+SmC=22
+ObjVer=1
+PrH=10
+CF=2
+n1I=3
+n1O=1
+Cmn1=Actual\\
+mI=3
+I1=21
+I2=24
+mO=1
+tO=1
+O1=8
+mP=1
+P1=8s
+]
+[
+ObjTp=Sm
+H=18
+SmC=12
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+Cmn1=Main Power\\
+mI=2
+I1=306
+I2=307
+mO=2
+tO=2
+O1=907
+O2=908
+]
+[
+ObjTp=Sm
+H=19
+SmC=156
+ObjVer=1
+PrH=28
+CF=2
+Cmn1=Main Mute Toggle\\
+mC=2
+C1=21
+C2=22
+]
+[
+ObjTp=Sm
+H=20
+SmC=103
+Nm=Contemporary Research 232-ATSC Feedback Processor.usp
+ObjVer=1
+PrH=11
+CF=2
+n2I=2
+mI=2
+I1=224
+I2=22
+mO=20
+tO=20
+O1=124
+O2=14
+O3=106
+O4=264
+O5=25
+O6=281
+O7=282
+O8=283
+O9=284
+O10=285
+O11=286
+O12=294
+O13=35
+O14=28
+O15=29
+O16=30
+O17=31
+O18=32
+O19=33
+O20=44
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=21
+SmC=13
+ObjVer=1
+PrH=19
+CF=2
+n1I=3
+n1O=2
+mI=3
+I2=41
+I3=155
+mO=2
+tO=2
+O1=41
+]
+[
+ObjTp=Sm
+H=22
+SmC=20
+ObjVer=1
+PrH=19
+CF=2
+n1I=3
+n1O=2
+mI=3
+I1=41
+I2=156
+I3=157
+mO=2
+tO=2
+O1=158
+O2=159
+]
+[
+ObjTp=Sm
+H=23
+SmC=8
+ObjVer=1
+PrH=10
+CF=2
+n1I=1
+n1O=1
+Cmn1=Channel Up\\
+mI=1
+I1=247
+mO=1
+tO=1
+O1=249
+mP=2
+P1=0.01s
+P2=.5s
+]
+[
+ObjTp=Sm
+H=24
+SmC=103
+Nm=Contemporary Research 232-ATSC Tuner Control.usp
+ObjVer=1
+PrH=28
+CF=2
+n1I=4
+n2I=5
+mI=9
+I1=879
+I2=23
+I3=123
+I4=9
+I5=22
+I6=85
+I7=42
+I8=18
+I9=177
+mO=3
+tO=3
+O1=84
+O2=367
+O3=175
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=25
+SmC=156
+ObjVer=1
+PrH=28
+CF=2
+Cmn1=Volume Ramp Release\\
+]
+[
+ObjTp=Sm
+H=26
+SmC=8
+ObjVer=1
+PrH=10
+CF=2
+n1I=1
+n1O=1
+Cmn1=Channel Down\\
+mI=1
+I1=248
+mO=1
+tO=1
+O1=250
+mP=2
+P1=0.01s
+P2=.5s
+]
+[
+ObjTp=Sm
+H=28
+SmC=156
+ObjVer=1
+PrH=10
+CF=2
+Cmn1=Main Control\\
+mC=11
+C1=12
+C2=19
+C3=25
+C4=56
+C5=59
+C6=55
+C7=57
+C8=35
+C9=58
+C10=60
+C11=24
+]
+[
+ObjTp=Sm
+H=30
+SmC=3
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=417
+I2=304
+mO=1
+tO=1
+O1=306
+]
+[
+ObjTp=Sm
+H=31
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+mI=2
+I1=25
+mO=2
+tO=2
+O1=243
+O2=244
+mP=2
+P1=1d
+P2=0d
+]
+[
+ObjTp=Sm
+H=32
+SmC=46
+ObjVer=1
+PrH=10
+CF=2
+n1I=2
+n1O=1
+Cmn1=Actual\\
+mI=2
+I1=2
+I2=264
+mO=1
+tO=1
+O1=26
+]
+[
+ObjTp=Sm
+H=33
+SmC=3
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=418
+I2=305
+mO=1
+tO=1
+O1=307
+]
+[
+ObjTp=Sm
+H=34
+SmC=24
+ObjVer=1
+PrH=11
+CF=2
+n1I=1
+n1O=1
+Cmn1=Volume Actual\\
+mI=1
+I1=26
+mO=1
+tO=1
+O1=8
+mP=3
+P1=65535d
+P2=100d
+P3=0d
+]
+[
+ObjTp=Sm
+H=35
+SmC=10
+ObjVer=1
+PrH=28
+CF=2
+n1I=3
+n1O=2
+mI=3
+I1=12
+I3=91
+mO=2
+tO=2
+O1=87
+O2=86
+mP=1
+P1=\[#Channel_Change_Delay\]
+]
+[
+ObjTp=Sm
+H=36
+SmC=32
+ObjVer=1
+PrH=11
+CF=2
+n1I=1
+n1O=1
+mI=1
+I1=2
+mO=1
+tO=1
+O1=22
+mP=1
+P1=\[#Unit_Number\]
+]
+[
+ObjTp=Sm
+H=37
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+mI=2
+I1=281
+mO=2
+tO=2
+O1=34
+O2=36
+mP=2
+P1=1d
+P2=0d
+]
+[
+ObjTp=Sm
+H=38
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=4
+mI=2
+I1=282
+mO=4
+tO=4
+O1=37
+O2=38
+O3=39
+O4=40
+mP=4
+P1=1d
+P2=2d
+P3=3d
+P4=4d
+]
+[
+ObjTp=Sm
+H=39
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=283
+mO=1
+tO=1
+O1=46
+mP=1
+P1=3d
+]
+[
+ObjTp=Sm
+H=40
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=284
+mO=1
+tO=1
+O1=47
+mP=1
+P1=0d
+]
+[
+ObjTp=Sm
+H=41
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=285
+mO=1
+tO=1
+O1=48
+mP=1
+P1=2d
+]
+[
+ObjTp=Sm
+H=42
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+mI=2
+I1=286
+mO=2
+tO=2
+O1=50
+O2=49
+mP=2
+P1=9d
+P2=0d
+]
+[
+ObjTp=Sm
+H=43
+SmC=101
+ObjVer=1
+PrH=10
+CF=2
+n1I=22
+n1O=2
+Cmn1=Channel_Presets Internal\\
+mI=22
+I3=45
+I4=51
+I5=112
+I6=165
+I7=166
+I8=174
+I9=176
+I10=178
+I11=179
+I12=180
+I13=181
+I14=182
+I15=183
+I16=184
+I17=185
+I18=186
+I19=187
+I20=188
+I21=189
+I22=190
+mO=2
+tO=2
+O1=18
+mP=22
+P1=\x0A
+P2=\[#Channel_Preset_1\]
+P3=\[#Channel_Preset_2\]
+P4=\[#Channel_Preset_3\]
+P5=\[#Channel_Preset_4\]
+P6=\[#Channel_Preset_5\]
+P7=\[#Channel_Preset_6\]
+P8=\[#Channel_Preset_7\]
+P9=\[#Channel_Preset_8\]
+P10=\[#Channel_Preset_9\]
+P11=\[#Channel_Preset_10\]
+P12=\[#Channel_Preset_11\]
+P13=\[#Channel_Preset_12\]
+P14=\[#Channel_Preset_13\]
+P15=\[#Channel_Preset_14\]
+P16=\[#Channel_Preset_15\]
+P17=\[#Channel_Preset_16\]
+P18=\[#Channel_Preset_17\]
+P19=\[#Channel_Preset_18\]
+P20=\[#Channel_Preset_19\]
+P21=\[#Channel_Preset_20\]
+P22=
+]
+[
+ObjTp=Sm
+H=44
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=6
+mI=2
+I1=294
+mO=6
+tO=6
+O1=52
+O2=53
+O3=54
+O4=55
+O5=56
+O6=57
+mP=6
+P1=1d
+P2=2d
+P3=3d
+P4=4d
+P5=5d
+P6=6d
+]
+[
+ObjTp=Sm
+H=45
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+mI=2
+I1=35
+mO=2
+tO=2
+O1=58
+O2=59
+mP=2
+P1=1d
+P2=0d
+]
+[
+ObjTp=Sm
+H=46
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=28
+mO=1
+tO=1
+O1=60
+mP=1
+P1=0d
+]
+[
+ObjTp=Sm
+H=47
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+mI=2
+I1=29
+mO=2
+tO=2
+O1=61
+O2=62
+mP=2
+P1=1d
+P2=2d
+]
+[
+ObjTp=Sm
+H=48
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=5
+mI=2
+I1=30
+mO=5
+tO=5
+O1=63
+O2=67
+O3=64
+O4=65
+O5=68
+mP=5
+P1=0d
+P2=1d
+P3=2d
+P4=3d
+P5=4d
+]
+[
+ObjTp=Sm
+H=49
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+mI=2
+I1=31
+mO=2
+tO=2
+O1=66
+O2=69
+mP=2
+P1=0d
+P2=2d
+]
+[
+ObjTp=Sm
+H=50
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=4
+mI=2
+I1=33
+mO=4
+tO=4
+O1=73
+O2=75
+O3=76
+O4=77
+mP=4
+P1=0d
+P2=1d
+P3=2d
+P4=3d
+]
+[
+ObjTp=Sm
+H=51
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=4
+mI=2
+I1=32
+mO=4
+tO=4
+O1=71
+O2=74
+O3=70
+O4=72
+mP=4
+P1=0d
+P2=1d
+P3=2d
+P4=3d
+]
+[
+ObjTp=Sm
+H=52
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+Cmn1=Power 1\\
+mI=2
+I1=124
+mO=2
+tO=2
+O1=125
+O2=126
+mP=2
+P1=1d
+P2=0d
+]
+[
+ObjTp=Sm
+H=53
+SmC=38
+ObjVer=1
+PrH=11
+CF=2
+n1I=2
+n1O=2
+Cmn1=Power 2\\
+mI=2
+I1=14
+mO=2
+tO=2
+O1=246
+O2=303
+mP=2
+P1=1d
+P2=0d
+]
+[
+ObjTp=Sm
+H=54
+SmC=19
+ObjVer=1
+PrH=10
+CF=2
+n1I=22
+n1O=20
+Cmn1=Channel_Presets\\
+mI=22
+I3=45
+I4=51
+I5=112
+I6=165
+I7=166
+I8=174
+I9=176
+I10=178
+I11=179
+I12=180
+I13=181
+I14=182
+I15=183
+I16=184
+I17=185
+I18=186
+I19=187
+I20=188
+I21=189
+I22=190
+mO=20
+tO=20
+O1=191
+O2=192
+O3=193
+O4=194
+O5=195
+O6=196
+O7=197
+O8=198
+O9=199
+O10=200
+O11=201
+O12=202
+O13=203
+O14=204
+O15=205
+O16=206
+O17=207
+O18=208
+O19=209
+O20=210
+]
+[
+ObjTp=Sm
+H=55
+SmC=21
+ObjVer=1
+PrH=28
+CF=2
+n1I=12
+n1O=11
+mI=12
+I2=113
+I3=114
+I4=115
+I5=116
+I6=117
+I7=118
+I8=119
+I9=120
+I10=121
+I11=122
+I12=138
+mO=11
+tO=11
+O1=88
+O2=92
+O3=93
+O4=94
+O5=95
+O6=96
+O7=97
+O8=105
+O9=148
+O10=164
+O11=167
+mP=1
+P1=.25s
+]
+[
+ObjTp=Sm
+H=56
+SmC=101
+ObjVer=1
+PrH=28
+CF=2
+n1I=13
+n1O=2
+Cmn1=Text Keypad\\
+mI=13
+I3=113
+I4=114
+I5=115
+I6=116
+I7=117
+I8=118
+I9=119
+I10=120
+I11=121
+I12=122
+I13=138
+mO=2
+tO=2
+O1=177
+mP=13
+P1=
+P2="0"
+P3="1"
+P4="2"
+P5="3"
+P6="4"
+P7="5"
+P8="6"
+P9="7"
+P10="8"
+P11="9"
+P12="-"
+P13=
+]
+[
+ObjTp=Sm
+H=57
+SmC=3
+ObjVer=1
+PrH=28
+CF=2
+n1I=11
+n1O=1
+mI=11
+I1=88
+I2=92
+I3=93
+I4=94
+I5=95
+I6=96
+I7=97
+I8=105
+I9=148
+I10=164
+I11=167
+mO=1
+tO=1
+O1=12
+]
+[
+ObjTp=Sm
+H=58
+SmC=32
+ObjVer=1
+PrH=28
+CF=2
+n1I=3
+n1O=1
+mI=3
+I1=91
+I2=87
+I3=86
+mO=1
+tO=1
+O1=85
+mP=3
+P1=0d
+P2=0d
+P3=12d
+]
+[
+ObjTp=Sm
+H=59
+SmC=9
+ObjVer=1
+PrH=28
+CF=2
+n1I=3
+n1O=2
+mI=3
+I1=2
+mO=2
+tO=2
+O1=91
+mP=1
+P1=.25s
+]
+[
+ObjTp=Sm
+H=60
+SmC=46
+ObjVer=1
+PrH=28
+CF=2
+n1I=2
+n1O=1
+mI=2
+I1=2
+I2=175
+mO=1
+tO=1
+O1=85
+]
+[
+ObjTp=Sm
+H=95
+SmC=285
+ObjVer=1
+PrH=4
+CF=2
+n1I=4
+n1O=2
+Cmn1=Must use only 3 pins- MFR\\
+mI=4
+I1=367
+mO=2
+tO=2
+O1=224
+mP=8
+P1=
+P2=9600
+P3=N
+P4=8
+P5=1
+P6=(None)
+P7=(None)
+P8=(RS232)
+]
+[
+ObjTp=Sm
+H=97
+SmC=8
+ObjVer=1
+PrH=10
+CF=2
+n1I=1
+n1O=1
+Cmn1=Volume Down\\
+mI=1
+I1=23
+mO=1
+tO=1
+O1=24
+mP=2
+P1=0.01s
+P2=.5s
+]
+[
+ObjTp=Sm
+H=98
+SmC=8
+ObjVer=1
+PrH=10
+CF=2
+n1I=1
+n1O=1
+Cmn1=Volume Up\\
+mI=1
+I1=879
+mO=1
+tO=1
+O1=21
+mP=2
+P1=0.01s
+P2=.5s
+]
+[
+ObjTp=Sg
+H=4
+Nm=power_on_bf
+]
+[
+ObjTp=Sg
+H=5
+Nm=power_off_bf
+]
+[
+ObjTp=Sg
+H=6
+Nm=Front_Panel_is_Not_Locked
+]
+[
+ObjTp=Sg
+H=7
+Nm=Stepper_Poll_SQ
+]
+[
+ObjTp=Sg
+H=8
+Nm=Volume_Bar
+SgTp=2
+]
+[
+ObjTp=Sg
+H=9
+Nm=Keypad_Clear
+]
+[
+ObjTp=Sg
+H=10
+Nm=power_toggle_t
+]
+[
+ObjTp=Sg
+H=11
+Nm=Front_Panel_Unlock
+]
+[
+ObjTp=Sg
+H=12
+Nm=Keypad_Timer_MOS_Or
+]
+[
+ObjTp=Sg
+H=13
+Nm=Get_Status_is_On
+]
+[
+ObjTp=Sg
+H=14
+Nm=Audio_Status_Power_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=15
+Nm=Front_Panel_Lockout_Channel
+]
+[
+ObjTp=Sg
+H=16
+Nm=Front_Panel_Lockout_Volume
+]
+[
+ObjTp=Sg
+H=17
+Nm=Front_Panel_Lockout_Channel_and_Volume
+]
+[
+ObjTp=Sg
+H=18
+Nm=Module_Channel_Presets_Text_In
+SgTp=4
+]
+[
+ObjTp=Sg
+H=19
+Nm=Front_Panel_Lockout_Power
+]
+[
+ObjTp=Sg
+H=20
+Nm=Front_Panel_Lockout_Channel_and_Power
+]
+[
+ObjTp=Sg
+H=21
+Nm=Volume_Up_OSC
+]
+[
+ObjTp=Sg
+H=22
+Nm=Parameterized_Unit_ID
+SgTp=2
+]
+[
+ObjTp=Sg
+H=23
+Nm=Volume_Down
+]
+[
+ObjTp=Sg
+H=24
+Nm=Volume_Down_OSC
+]
+[
+ObjTp=Sg
+H=25
+Nm=Volume_Mute_Status_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=26
+Nm=Volume_Actual_Scaled
+SgTp=2
+]
+[
+ObjTp=Sg
+H=27
+Nm=Front_Panel_Lockout_Volume_and_Power
+]
+[
+ObjTp=Sg
+H=28
+Nm=Input_RF_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=29
+Nm=RF_Status_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=30
+Nm=Received_Resolution_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=31
+Nm=Output_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=32
+Nm=Output_Resolution_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=33
+Nm=Output_Setting_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=34
+Nm=Closed_Caption_is_On
+]
+[
+ObjTp=Sg
+H=35
+Nm=Video_Mute_Status_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=36
+Nm=Closed_Caption_is_Off
+]
+[
+ObjTp=Sg
+H=37
+Nm=Closed_Caption_is_Type_1
+]
+[
+ObjTp=Sg
+H=38
+Nm=Closed_Caption_is_Type_2
+]
+[
+ObjTp=Sg
+H=39
+Nm=Closed_Caption_is_Type_3
+]
+[
+ObjTp=Sg
+H=40
+Nm=Closed_Caption_is_Type_4
+]
+[
+ObjTp=Sg
+H=41
+Nm=Mute_toggle_t
+]
+[
+ObjTp=Sg
+H=42
+Nm=Demo_Channel_Presets_Text_In
+SgTp=4
+]
+[
+ObjTp=Sg
+H=43
+Nm=Digital_Caption_1
+]
+[
+ObjTp=Sg
+H=44
+Nm=F_Panel_Lock_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=45
+Nm=Channel_Preset_1
+]
+[
+ObjTp=Sg
+H=46
+Nm=Video_Detected
+]
+[
+ObjTp=Sg
+H=47
+Nm=AV_Detected
+]
+[
+ObjTp=Sg
+H=48
+Nm=Label_Detected
+]
+[
+ObjTp=Sg
+H=49
+Nm=IR_is_Off
+]
+[
+ObjTp=Sg
+H=50
+Nm=IR_is_Normal
+]
+[
+ObjTp=Sg
+H=51
+Nm=Channel_Preset_2
+]
+[
+ObjTp=Sg
+H=52
+Nm=Digital_CC_is_1
+]
+[
+ObjTp=Sg
+H=53
+Nm=Digital_CC_is_2
+]
+[
+ObjTp=Sg
+H=54
+Nm=Digital_CC_is_3
+]
+[
+ObjTp=Sg
+H=55
+Nm=Digital_CC_is_4
+]
+[
+ObjTp=Sg
+H=56
+Nm=Digital_CC_is_5
+]
+[
+ObjTp=Sg
+H=57
+Nm=Digital_CC_is_6
+]
+[
+ObjTp=Sg
+H=58
+Nm=Video_Mute_is_On
+]
+[
+ObjTp=Sg
+H=59
+Nm=Video_Mute_is_Off
+]
+[
+ObjTp=Sg
+H=60
+Nm=Input_RF_Detected
+]
+[
+ObjTp=Sg
+H=61
+Nm=Signal_is_Off_Air
+]
+[
+ObjTp=Sg
+H=62
+Nm=Signal_is_Cable
+]
+[
+ObjTp=Sg
+H=63
+Nm=Received_Resolution_is_1080i
+]
+[
+ObjTp=Sg
+H=64
+Nm=Received_Resolution_is_480p
+]
+[
+ObjTp=Sg
+H=65
+Nm=Received_Resolution_is_480i
+]
+[
+ObjTp=Sg
+H=66
+Nm=Output_Signal_is_RGB
+]
+[
+ObjTp=Sg
+H=67
+Nm=Received_Resolution_is_720p
+]
+[
+ObjTp=Sg
+H=68
+Nm=Received_Resolution_is_No_Signal
+]
+[
+ObjTp=Sg
+H=69
+Nm=Output_Signal_is_YPbPr
+]
+[
+ObjTp=Sg
+H=70
+Nm=Output_Resolution_is_480p
+]
+[
+ObjTp=Sg
+H=71
+Nm=Output_Resolution_is_1080i
+]
+[
+ObjTp=Sg
+H=72
+Nm=Output_Resolution_is_480i
+]
+[
+ObjTp=Sg
+H=73
+Nm=Output_Setting_is_1080i
+]
+[
+ObjTp=Sg
+H=74
+Nm=Output_Resolution_is_720p
+]
+[
+ObjTp=Sg
+H=75
+Nm=Output_Setting_is_720p
+]
+[
+ObjTp=Sg
+H=76
+Nm=Output_Setting_is_480p
+]
+[
+ObjTp=Sg
+H=77
+Nm=Output_Setting_is_480i
+]
+[
+ObjTp=Sg
+H=78
+Nm=Front_Panel_Lockout_All
+]
+[
+ObjTp=Sg
+H=79
+Nm=//Tuning_Format_CATV
+]
+[
+ObjTp=Sg
+H=80
+Nm=//Tuning_Format_Off_Air
+]
+[
+ObjTp=Sg
+H=81
+Nm=Tuning_Format_IRC
+]
+[
+ObjTp=Sg
+H=82
+Nm=Tuning_Format_HRC
+]
+[
+ObjTp=Sg
+H=83
+Nm=Tuning_Format_Cable_Auto
+]
+[
+ObjTp=Sg
+H=84
+Nm=Channel_Key_Out_Text
+SgTp=4
+]
+[
+ObjTp=Sg
+H=85
+Nm=Keypad_Timeout_Test
+SgTp=2
+]
+[
+ObjTp=Sg
+H=86
+Nm=Keypad_Timed_Out
+]
+[
+ObjTp=Sg
+H=87
+Nm=Keypad_Timer_Running
+]
+[
+ObjTp=Sg
+H=88
+Nm=Keypad_0_MOS
+]
+[
+ObjTp=Sg
+H=89
+Nm=Closed_Caption_On
+]
+[
+ObjTp=Sg
+H=90
+Nm=Closed_Caption_Off
+]
+[
+ObjTp=Sg
+H=91
+Nm=Init_Keypad_Timer
+]
+[
+ObjTp=Sg
+H=92
+Nm=Keypad_1_MOS
+]
+[
+ObjTp=Sg
+H=93
+Nm=Keypad_2_MOS
+]
+[
+ObjTp=Sg
+H=94
+Nm=Keypad_3_MOS
+]
+[
+ObjTp=Sg
+H=95
+Nm=Keypad_4_MOS
+]
+[
+ObjTp=Sg
+H=96
+Nm=Keypad_5_MOS
+]
+[
+ObjTp=Sg
+H=97
+Nm=Keypad_6_MOS
+]
+[
+ObjTp=Sg
+H=98
+Nm=Closed_Caption_1
+]
+[
+ObjTp=Sg
+H=99
+Nm=Closed_Caption_2
+]
+[
+ObjTp=Sg
+H=100
+Nm=Closed_Caption_3
+]
+[
+ObjTp=Sg
+H=101
+Nm=Closed_Caption_4
+]
+[
+ObjTp=Sg
+H=102
+Nm=Digital_Caption_2
+]
+[
+ObjTp=Sg
+H=103
+Nm=Front_Panel_Lockout_is_All
+]
+[
+ObjTp=Sg
+H=104
+Nm=Front_Panel_Lockout_is_Volume
+]
+[
+ObjTp=Sg
+H=105
+Nm=Keypad_7_MOS
+]
+[
+ObjTp=Sg
+H=106
+Nm=Channel_Text
+SgTp=4
+]
+[
+ObjTp=Sg
+H=107
+Nm=Front_Panel_Lockout_is_Channel
+]
+[
+ObjTp=Sg
+H=108
+Nm=Front_Panel_Lockout_is_Channel_and_Volume
+]
+[
+ObjTp=Sg
+H=109
+Nm=Front_Panel_Lockout_is_Power
+]
+[
+ObjTp=Sg
+H=110
+Nm=Front_Panel_Lockout_is_Channel_and_Power
+]
+[
+ObjTp=Sg
+H=111
+Nm=Front_Panel_Lockout_is_Volume_and_Power
+]
+[
+ObjTp=Sg
+H=112
+Nm=Channel_Preset_3
+]
+[
+ObjTp=Sg
+H=113
+Nm=Keypad_0
+]
+[
+ObjTp=Sg
+H=114
+Nm=Keypad_1
+]
+[
+ObjTp=Sg
+H=115
+Nm=Keypad_2
+]
+[
+ObjTp=Sg
+H=116
+Nm=Keypad_3
+]
+[
+ObjTp=Sg
+H=117
+Nm=Keypad_4
+]
+[
+ObjTp=Sg
+H=118
+Nm=Keypad_5
+]
+[
+ObjTp=Sg
+H=119
+Nm=Keypad_6
+]
+[
+ObjTp=Sg
+H=120
+Nm=Keypad_7
+]
+[
+ObjTp=Sg
+H=121
+Nm=Keypad_8
+]
+[
+ObjTp=Sg
+H=122
+Nm=Keypad_9
+]
+[
+ObjTp=Sg
+H=123
+Nm=Keypad_Enter_Select
+]
+[
+ObjTp=Sg
+H=124
+Nm=Power_Status_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=125
+Nm=power_on_in
+]
+[
+ObjTp=Sg
+H=126
+Nm=power_off_in
+]
+[
+ObjTp=Sg
+H=127
+Nm=//Keypad_Volume_Up
+]
+[
+ObjTp=Sg
+H=128
+Nm=//Keypad_Volume_Down
+]
+[
+ObjTp=Sg
+H=129
+Nm=//Keypad_Vol_Mute_Toggle
+]
+[
+ObjTp=Sg
+H=130
+Nm=Keypad_Menu
+]
+[
+ObjTp=Sg
+H=131
+Nm=Keypad_Freeze
+]
+[
+ObjTp=Sg
+H=132
+Nm=Keypad_Signal
+]
+[
+ObjTp=Sg
+H=133
+Nm=Keypad_Ratio
+]
+[
+ObjTp=Sg
+H=134
+Nm=Keypad_Audio
+]
+[
+ObjTp=Sg
+H=135
+Nm=Keypad_Favorite
+]
+[
+ObjTp=Sg
+H=136
+Nm=Keypad_List
+]
+[
+ObjTp=Sg
+H=137
+Nm=Keypad_Add/Delete_Channel
+]
+[
+ObjTp=Sg
+H=138
+Nm=Keypad_Dash_-
+]
+[
+ObjTp=Sg
+H=139
+Nm=Keypad_Info
+]
+[
+ObjTp=Sg
+H=140
+Nm=Keypad_Previous_Channel
+]
+[
+ObjTp=Sg
+H=141
+Nm=//Keypad_Menu_2
+]
+[
+ObjTp=Sg
+H=142
+Nm=Keypad_Arrow_Right
+]
+[
+ObjTp=Sg
+H=143
+Nm=Keypad_Arrow_Left
+]
+[
+ObjTp=Sg
+H=144
+Nm=Keypad_Arrow_Up
+]
+[
+ObjTp=Sg
+H=145
+Nm=Keypad_Arrow_Down
+]
+[
+ObjTp=Sg
+H=146
+Nm=Keypad_Enter_Select_2
+]
+[
+ObjTp=Sg
+H=147
+Nm=Keypad_Exit
+]
+[
+ObjTp=Sg
+H=148
+Nm=Keypad_8_MOS
+]
+[
+ObjTp=Sg
+H=149
+Nm=Keypad_Format_Resolution_1080i
+]
+[
+ObjTp=Sg
+H=150
+Nm=Keypad_Format_Resolution_720p
+]
+[
+ObjTp=Sg
+H=151
+Nm=Keypad_Format_Resolution_480p
+]
+[
+ObjTp=Sg
+H=152
+Nm=Keypad_Format_Resolution_480i
+]
+[
+ObjTp=Sg
+H=153
+Nm=Keypad_Format_Resolution_RGB
+]
+[
+ObjTp=Sg
+H=154
+Nm=Keypad_Format_Resolution_YPbPr
+]
+[
+ObjTp=Sg
+H=155
+Nm=Mute_Toggle
+]
+[
+ObjTp=Sg
+H=156
+Nm=Mute_is_Off
+]
+[
+ObjTp=Sg
+H=157
+Nm=Mute_is_On
+]
+[
+ObjTp=Sg
+H=158
+Nm=Mute_on_bf
+]
+[
+ObjTp=Sg
+H=159
+Nm=Mute_off_bf
+]
+[
+ObjTp=Sg
+H=160
+Nm=Mute_On
+]
+[
+ObjTp=Sg
+H=161
+Nm=Mute_Off
+]
+[
+ObjTp=Sg
+H=162
+Nm=Keypad_Off_Air/Cable_Cycle
+]
+[
+ObjTp=Sg
+H=163
+Nm=Keypad_Off_Air
+]
+[
+ObjTp=Sg
+H=164
+Nm=Keypad_9_MOS
+]
+[
+ObjTp=Sg
+H=165
+Nm=Channel_Preset_4
+]
+[
+ObjTp=Sg
+H=166
+Nm=Channel_Preset_5
+]
+[
+ObjTp=Sg
+H=167
+Nm=Keypad_Dash_-_MOS
+]
+[
+ObjTp=Sg
+H=168
+Nm=Keypad_Cable
+]
+[
+ObjTp=Sg
+H=169
+Nm=Keypad_Ratio_16x9_Pillar
+]
+[
+ObjTp=Sg
+H=170
+Nm=Digital_Caption_3
+]
+[
+ObjTp=Sg
+H=171
+Nm=Digital_Caption_4
+]
+[
+ObjTp=Sg
+H=172
+Nm=Digital_Caption_5
+]
+[
+ObjTp=Sg
+H=173
+Nm=Digital_Caption_6
+]
+[
+ObjTp=Sg
+H=174
+Nm=Channel_Preset_6
+]
+[
+ObjTp=Sg
+H=175
+Nm=Keypad_Timer_Clear
+SgTp=2
+]
+[
+ObjTp=Sg
+H=176
+Nm=Channel_Preset_7
+]
+[
+ObjTp=Sg
+H=177
+Nm=Channel_Key_In_Text
+SgTp=4
+]
+[
+ObjTp=Sg
+H=178
+Nm=Channel_Preset_8
+]
+[
+ObjTp=Sg
+H=179
+Nm=Channel_Preset_9
+]
+[
+ObjTp=Sg
+H=180
+Nm=Channel_Preset_10
+]
+[
+ObjTp=Sg
+H=181
+Nm=Channel_Preset_11
+]
+[
+ObjTp=Sg
+H=182
+Nm=Channel_Preset_12
+]
+[
+ObjTp=Sg
+H=183
+Nm=Channel_Preset_13
+]
+[
+ObjTp=Sg
+H=184
+Nm=Channel_Preset_14
+]
+[
+ObjTp=Sg
+H=185
+Nm=Channel_Preset_15
+]
+[
+ObjTp=Sg
+H=186
+Nm=Channel_Preset_16
+]
+[
+ObjTp=Sg
+H=187
+Nm=Channel_Preset_17
+]
+[
+ObjTp=Sg
+H=188
+Nm=Channel_Preset_18
+]
+[
+ObjTp=Sg
+H=189
+Nm=Channel_Preset_19
+]
+[
+ObjTp=Sg
+H=190
+Nm=Channel_Preset_20
+]
+[
+ObjTp=Sg
+H=191
+Nm=Channel_Preset_1_is_On
+]
+[
+ObjTp=Sg
+H=192
+Nm=Channel_Preset_2_is_On
+]
+[
+ObjTp=Sg
+H=193
+Nm=Channel_Preset_3_is_On
+]
+[
+ObjTp=Sg
+H=194
+Nm=Channel_Preset_4_is_On
+]
+[
+ObjTp=Sg
+H=195
+Nm=Channel_Preset_5_is_On
+]
+[
+ObjTp=Sg
+H=196
+Nm=Channel_Preset_6_is_On
+]
+[
+ObjTp=Sg
+H=197
+Nm=Channel_Preset_7_is_On
+]
+[
+ObjTp=Sg
+H=198
+Nm=Channel_Preset_8_is_On
+]
+[
+ObjTp=Sg
+H=199
+Nm=Channel_Preset_9_is_On
+]
+[
+ObjTp=Sg
+H=200
+Nm=Channel_Preset_10_is_On
+]
+[
+ObjTp=Sg
+H=201
+Nm=Channel_Preset_11_is_On
+]
+[
+ObjTp=Sg
+H=202
+Nm=Channel_Preset_12_is_On
+]
+[
+ObjTp=Sg
+H=203
+Nm=Channel_Preset_13_is_On
+]
+[
+ObjTp=Sg
+H=204
+Nm=Channel_Preset_14_is_On
+]
+[
+ObjTp=Sg
+H=205
+Nm=Channel_Preset_15_is_On
+]
+[
+ObjTp=Sg
+H=206
+Nm=Channel_Preset_16_is_On
+]
+[
+ObjTp=Sg
+H=207
+Nm=Channel_Preset_17_is_On
+]
+[
+ObjTp=Sg
+H=208
+Nm=Channel_Preset_18_is_On
+]
+[
+ObjTp=Sg
+H=209
+Nm=Channel_Preset_19_is_On
+]
+[
+ObjTp=Sg
+H=210
+Nm=Channel_Preset_20_is_On
+]
+[
+ObjTp=Sg
+H=213
+Nm=Stepper_Poll_SS
+]
+[
+ObjTp=Sg
+H=214
+Nm=Stepper_Poll_ST
+]
+[
+ObjTp=Sg
+H=215
+Nm=Stepper_Poll_SV
+]
+[
+ObjTp=Sg
+H=216
+Nm=Keypad_Ratio_4x3_Letter
+]
+[
+ObjTp=Sg
+H=217
+Nm=Keypad_Ratio_16x9_Full_Wide
+]
+[
+ObjTp=Sg
+H=218
+Nm=Keypad_Ratio_4x3_Full
+]
+[
+ObjTp=Sg
+H=219
+Nm=Keypad_Ratio_16x9_V_Zoom
+]
+[
+ObjTp=Sg
+H=220
+Nm=Keypad_Ratio_4x3_H_Zoom
+]
+[
+ObjTp=Sg
+H=221
+Nm=Keypad_AC-3_Dolby_5.1
+]
+[
+ObjTp=Sg
+H=222
+Nm=Keypad_PCM
+]
+[
+ObjTp=Sg
+H=223
+Nm=Keypad_PCM_Variable_Bit_Rate
+]
+[
+ObjTp=Sg
+H=224
+Nm=From_Device
+SgTp=4
+]
+[
+ObjTp=Sg
+H=225
+Nm=Get_Status
+]
+[
+ObjTp=Sg
+H=226
+Nm=Keypad_Display_16x9
+]
+[
+ObjTp=Sg
+H=227
+Nm=Keypad_Display_4x3
+]
+[
+ObjTp=Sg
+H=228
+Nm=Keypad_Guide
+]
+[
+ObjTp=Sg
+H=243
+Nm=mute_on_in
+]
+[
+ObjTp=Sg
+H=244
+Nm=mute_off_in
+]
+[
+ObjTp=Sg
+H=246
+Nm=power_on_in_2
+]
+[
+ObjTp=Sg
+H=247
+Nm=Channel_Up
+]
+[
+ObjTp=Sg
+H=248
+Nm=Channel_Down
+]
+[
+ObjTp=Sg
+H=249
+Nm=Channel_Up_OSC
+]
+[
+ObjTp=Sg
+H=250
+Nm=Channel_Down_OSC
+]
+[
+ObjTp=Sg
+H=253
+Nm=Mute_on_in_m
+]
+[
+ObjTp=Sg
+H=254
+Nm=Mute_off_in_m
+]
+[
+ObjTp=Sg
+H=264
+Nm=Volume_Actual_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=281
+Nm=CC_Status_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=282
+Nm=CC_Type_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=283
+Nm=Video_Detect_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=284
+Nm=AV_Detect_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=285
+Nm=Label_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=286
+Nm=IR_Status_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=294
+Nm=Digital_CC_Analog
+SgTp=2
+]
+[
+ObjTp=Sg
+H=303
+Nm=power_off_in_2
+]
+[
+ObjTp=Sg
+H=304
+Nm=power_on_in_2_m
+]
+[
+ObjTp=Sg
+H=305
+Nm=power_off_in_2_m
+]
+[
+ObjTp=Sg
+H=306
+Nm=Both_V_and_A_Power_are_On
+]
+[
+ObjTp=Sg
+H=307
+Nm=Power_in_Off
+]
+[
+ObjTp=Sg
+H=367
+Nm=To_Device
+SgTp=4
+]
+[
+ObjTp=Sg
+H=417
+Nm=power_on_in_m
+]
+[
+ObjTp=Sg
+H=418
+Nm=power_off_in_m
+]
+[
+ObjTp=Sg
+H=551
+Nm=Power_On
+]
+[
+ObjTp=Sg
+H=553
+Nm=Power_Off
+]
+[
+ObjTp=Sg
+H=554
+Nm=Power_Toggle
+]
+[
+ObjTp=Sg
+H=747
+Nm=[~UNUSED~]
+SgTp=31
+]
+[
+ObjTp=Sg
+H=879
+Nm=Volume_Up
+]
+[
+ObjTp=Sg
+H=907
+Nm=Power_is_On
+]
+[
+ObjTp=Sg
+H=908
+Nm=Power_is_Off
+]
+[
+ObjTp=Dp
+H=1
+Tp=2
+DT=1
+Trg=1
+Cmd=166
+]
+[
+ObjTp=Dp
+H=2
+Tp=2
+DT=1
+Trg=1
+Cmd=165
+]
+[
+ObjTp=Dp
+H=3
+Tp=2
+DT=1
+Trg=1
+Cmd=164
+]
+[
+ObjTp=Dp
+H=4
+Tp=2
+DT=1
+SD=Main Input Video 1 (VCR/DVR)
+Trg=1
+]
+[
+ObjTp=Dp
+H=5
+Tp=2
+DT=1
+SD=Main Input Video 2 (CBL/SAT)
+Trg=1
+]
+[
+ObjTp=Dp
+H=6
+Tp=2
+DT=1
+SD=Main Input Video 3 (Game/TV)
+Trg=1
+]
+[
+ObjTp=Dp
+H=7
+Tp=2
+DT=1
+SD=Main Input Video 4 (AUX1)
+Trg=1
+]
+[
+ObjTp=Dp
+H=8
+Tp=2
+DT=1
+SD=Main Input Video 5 (AUX2)
+Trg=1
+]
+[
+ObjTp=Dp
+H=9
+Tp=2
+DT=1
+SD=Main Input Video 6
+Trg=1
+]
+[
+ObjTp=Dp
+H=10
+Tp=2
+DT=1
+SD=Main Input Video 7
+Trg=1
+]
+[
+ObjTp=Dp
+H=11
+Tp=2
+DT=1
+SD=Main Input DVD
+Trg=1
+]
+[
+ObjTp=Dp
+H=12
+Tp=2
+DT=1
+SD=Main Input Tape 1
+Trg=1
+Cmd=378
+]
+[
+ObjTp=Dp
+H=13
+Tp=2
+DT=1
+SD=Main Input Tape 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=14
+Tp=2
+DT=1
+SD=Main Input Phono
+Trg=1
+Cmd=294
+]
+[
+ObjTp=Dp
+H=15
+Tp=2
+DT=1
+Trg=1
+Cmd=31
+]
+[
+ObjTp=Dp
+H=16
+Tp=2
+DT=1
+SD=Main Input FM
+Trg=1
+]
+[
+ObjTp=Dp
+H=17
+Tp=2
+DT=1
+SD=Main Input AM
+Trg=1
+]
+[
+ObjTp=Dp
+H=18
+Tp=2
+DT=1
+SD=Main Input Tuner
+Trg=1
+]
+[
+ObjTp=Dp
+H=19
+Tp=2
+DT=1
+SD=Main Input Music Server
+Trg=1
+]
+[
+ObjTp=Dp
+H=20
+Tp=2
+DT=1
+SD=Main Input Internet Radio
+Trg=1
+]
+[
+ObjTp=Dp
+H=21
+Tp=2
+DT=1
+SD=Main Input USB
+Trg=1
+]
+[
+ObjTp=Dp
+H=22
+Tp=2
+DT=1
+SD=Main Input Multi Channel
+Trg=1
+]
+[
+ObjTp=Dp
+H=23
+Tp=2
+DT=1
+SD=Main Input XM
+Trg=1
+]
+[
+ObjTp=Dp
+H=24
+Tp=2
+DT=1
+SD=Main Input Sirius
+Trg=1
+]
+[
+ObjTp=Dp
+H=25
+Tp=2
+DT=1
+SD=Main Input Up
+Trg=1
+]
+[
+ObjTp=Dp
+H=26
+Tp=2
+DT=1
+SD=Main Input Down
+Trg=1
+]
+[
+ObjTp=Dp
+H=27
+Tp=2
+DT=1
+Trg=2
+Cmd=244
+]
+[
+ObjTp=Dp
+H=28
+Tp=2
+DT=1
+Trg=2
+Cmd=243
+]
+[
+ObjTp=Dp
+H=29
+Tp=2
+DT=1
+Trg=1
+Cmd=159
+]
+[
+ObjTp=Dp
+H=30
+Tp=2
+DT=1
+Trg=1
+Cmd=158
+]
+[
+ObjTp=Dp
+H=31
+Tp=2
+DT=1
+Trg=1
+Cmd=157
+]
+[
+ObjTp=Dp
+H=32
+Tp=2
+DT=1
+SD=Main Tuner Key 0
+Trg=1
+]
+[
+ObjTp=Dp
+H=33
+Tp=2
+DT=1
+SD=Main Tuner Key 1
+Trg=1
+]
+[
+ObjTp=Dp
+H=34
+Tp=2
+DT=1
+SD=Main Tuner Key 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=35
+Tp=2
+DT=1
+SD=Main Tuner Key 3
+Trg=1
+]
+[
+ObjTp=Dp
+H=36
+Tp=2
+DT=1
+SD=Main Tuner Key 4
+Trg=1
+]
+[
+ObjTp=Dp
+H=37
+Tp=2
+DT=1
+SD=Main Tuner Key 5
+Trg=1
+]
+[
+ObjTp=Dp
+H=38
+Tp=2
+DT=1
+SD=Main Tuner Key 6
+Trg=1
+]
+[
+ObjTp=Dp
+H=39
+Tp=2
+DT=1
+SD=Main Tuner Key 7
+Trg=1
+]
+[
+ObjTp=Dp
+H=40
+Tp=2
+DT=1
+SD=Main Tuner Key 8
+Trg=1
+]
+[
+ObjTp=Dp
+H=41
+Tp=2
+DT=1
+SD=Main Tuner Key 9
+Trg=1
+]
+[
+ObjTp=Dp
+H=42
+Tp=2
+DT=1
+SD=Main Tuner Key Backspace
+Trg=1
+]
+[
+ObjTp=Dp
+H=43
+Tp=2
+DT=1
+SD=Main Tuner Key Clear
+Trg=1
+]
+[
+ObjTp=Dp
+H=44
+Tp=2
+DT=1
+SD=Main Tuner Key Enter
+Trg=1
+]
+[
+ObjTp=Dp
+H=45
+Tp=2
+DT=1
+SD=Main Tuner Key  Up
+Trg=1
+]
+[
+ObjTp=Dp
+H=46
+Tp=2
+DT=1
+SD=Main Tuner Key Down
+Trg=1
+]
+[
+ObjTp=Dp
+H=47
+Tp=2
+DT=1
+FD1=Power On
+SD=Power On
+Nt1=Power
+Trg=1
+Cmd=166
+]
+[
+ObjTp=Dp
+H=48
+Tp=2
+DT=1
+FD1=Power Off
+SD=Power Off
+Trg=1
+Cmd=165
+]
+[
+ObjTp=Dp
+H=49
+Tp=2
+DT=1
+FD1=Power Toggle
+SD=Power Toggle
+Trg=1
+Cmd=164
+]
+[
+ObjTp=Dp
+H=50
+Tp=1
+FD1=Unit Number
+SD=Unit Number
+Nt1=ASCII 0-9, where 0 means all.
+HD=TRUE
+DV=1
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=51
+Tp=1
+FD1=The number of seconds to wait for keyboard input for a user input||1
+FD2=Channel Change
+SD=Channel Change Delay in Seconds
+Nt1=Text input
+HD=TRUE
+DV=3
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=52
+Tp=5
+FD1=Analog value indicating the current volume level. Should be used||1
+FD2=as an input to a Touch Panel bar graph
+SD=Volume Level
+DNF=1
+]
+[
+ObjTp=Dp
+H=53
+Tp=3
+DT=1
+FD1=High to indicate that Mute is On.
+SD=Mute is On
+RE=Mute On
+HS=Mute is On
+]
+[
+ObjTp=Dp
+H=54
+Tp=3
+DT=1
+FD1=High to indicate that Mute is Off.
+SD=Mute is Off
+RE=Mute Off
+HS=Mute is Off
+]
+[
+ObjTp=Dp
+H=55
+Tp=2
+DT=1
+FD1=Keypad Cable
+SD=Keypad Cable
+Trg=1
+]
+[
+ObjTp=Dp
+H=56
+Tp=7
+DT=4
+FD1=Text field indicating current channel received.
+SD=Channel Text
+]
+[
+ObjTp=Dp
+H=57
+Tp=7
+DT=4
+FD1=Text field indicating current channel being entered by the user||1
+FD2=through the text keyboard.
+SD=Channel  Key Out Text
+Nt1=Channel may be entered or will timeout based on the value of the||1
+Nt2=parameter Channel Change Delay (in seconds). Channel clear may also||1
+Nt3=be used to clear the current channel data from this field.
+]
+[
+ObjTp=Dp
+H=58
+Tp=3
+DT=1
+FD1=High to indicate that Signal Cable is On.
+SD=Signal Cable is On
+RE=Signal Cable On
+HS=Signal Cable is On
+]
+[
+ObjTp=Dp
+H=59
+Tp=3
+DT=1
+FD1=High to indicate that Signal Off Air is On.
+SD=Signal Off Air is On
+RE=Signal Off Air On
+HS=Signal Off Air is On
+]
+[
+ObjTp=Dp
+H=60
+Tp=3
+DT=1
+FD1=High to indicate that Closed Caption is On.
+SD=Closed Caption is On
+RE=Closed Caption On
+HS=Closed Caption is On
+]
+[
+ObjTp=Dp
+H=61
+Tp=3
+DT=1
+FD1=High to indicate that Closed Caption is Off.
+SD=Closed Caption is Off
+RE=Closed Caption Off
+HS=Closed Caption is Off
+]
+[
+ObjTp=Dp
+H=62
+Tp=3
+DT=1
+FD1=High to indicate that Closed Caption Type 1 is On.
+SD=Closed Caption Type 1 is On
+RE=Closed Caption Type 1 On
+HS=Closed Caption Type 1 is On
+]
+[
+ObjTp=Dp
+H=63
+Tp=3
+DT=1
+FD1=High to indicate that Closed Caption Type 2 is On.
+SD=Closed Caption Type 2 is On
+RE=Closed Caption Type 2 On
+HS=Closed Caption Type 2 is On
+]
+[
+ObjTp=Dp
+H=64
+Tp=3
+DT=1
+FD1=High to indicate that Closed Caption Type 3 is On.
+SD=Closed Caption Type 3 is On
+RE=Closed Caption Type 3 On
+HS=Closed Caption Type 3 is On
+]
+[
+ObjTp=Dp
+H=65
+Tp=3
+DT=1
+FD1=High to indicate that Closed Caption Type 4 is On.
+SD=Closed Caption Type 4 is On
+RE=Closed Caption Type 4 On
+HS=Closed Caption Type 4 is On
+]
+[
+ObjTp=Dp
+H=66
+Tp=3
+DT=1
+FD1=High to indicate that Digital Caption Type 1 is On.
+SD=Digital Caption Type 1 is On
+RE=Digital Caption Type 1 On
+HS=Digital Caption Type 1 is On
+]
+[
+ObjTp=Dp
+H=67
+Tp=3
+DT=1
+FD1=High to indicate that Digital Caption Type 2 is On.
+SD=Digital Caption Type 2 is On
+RE=Digital Caption Type 2 On
+HS=Digital Caption Type 2 is On
+]
+[
+ObjTp=Dp
+H=68
+Tp=3
+DT=1
+FD1=High to indicate that Digital Caption Type 3 is On.
+SD=Digital Caption Type 3 is On
+RE=Digital Caption Type 3 On
+HS=Digital Caption Type 3 is On
+]
+[
+ObjTp=Dp
+H=69
+Tp=3
+DT=1
+FD1=High to indicate that Digital Caption Type 4 is On.
+SD=Digital Caption Type 4 is On
+RE=Digital Caption Type 4 On
+HS=Digital Caption Type 4 is On
+]
+[
+ObjTp=Dp
+H=70
+Tp=3
+DT=1
+FD1=High to indicate that Digital Caption Type 5 is On.
+SD=Digital Caption Type 5 is On
+RE=Digital Caption Type 5 On
+HS=Digital Caption Type 5 is On
+]
+[
+ObjTp=Dp
+H=71
+Tp=3
+DT=1
+FD1=High to indicate that Digital Caption Type 6 is On.
+SD=Digital Caption Type 6 is On
+RE=Digital Caption Type 6 On
+HS=Digital Caption Type 6 is On
+]
+[
+ObjTp=Dp
+H=72
+Tp=3
+DT=1
+FD1=High to indicate that Output Resolution 1080i is On.
+SD=Output Resolution 1080i is On
+RE=Output Resolution 1080i On
+HS=Output Resolution 1080i is On
+]
+[
+ObjTp=Dp
+H=73
+Tp=3
+DT=1
+FD1=High to indicate that Output Resolution 720p is On.
+SD=Output Resolution 720p is On
+RE=Output Resolution 720p On
+HS=Output Resolution 720p is On
+]
+[
+ObjTp=Dp
+H=74
+Tp=2
+DT=1
+FD1=Mute On
+SD=Mute On
+Trg=1
+]
+[
+ObjTp=Dp
+H=75
+Tp=2
+DT=1
+FD1=Mute Off
+SD=Mute Off
+Trg=1
+]
+[
+ObjTp=Dp
+H=76
+Tp=3
+DT=1
+FD1=High to indicate that Output Resolution 480p is On.
+SD=Output Resolution 480p is On
+RE=Output Resolution 480p On
+HS=Output Resolution 480p is On
+]
+[
+ObjTp=Dp
+H=77
+Tp=3
+DT=1
+FD1=High to indicate that Output Resolution 480i is On.
+SD=Output Resolution 480i is On
+RE=Output Resolution 480i On
+HS=Output Resolution 480i is On
+]
+[
+ObjTp=Dp
+H=78
+Tp=3
+DT=1
+FD1=High to indicate that Output Resolution RGB is On.
+SD=Output Resolution RGB is On
+RE=Output Resolution RGB On
+HS=Output Resolution RGB is On
+]
+[
+ObjTp=Dp
+H=79
+Tp=3
+DT=1
+FD1=High to indicate that Output Resolution YPbPr is On.
+SD=Output Resolution YPbPr is On
+RE=Output Resolution YPbPr On
+HS=Output Resolution YPbPr is On
+]
+[
+ObjTp=Dp
+H=80
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Not Locked is On.
+SD=Front Panel Not Locked is On
+RE=Front Panel Not Locked On
+HS=Front Panel Not Locked is On
+]
+[
+ObjTp=Dp
+H=81
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout Channel is On.
+SD=Front Panel Lockout Channel is On
+RE=Front Panel Lockout Channel On
+HS=Front Panel Lockout Channel is On
+]
+[
+ObjTp=Dp
+H=82
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout Volume is On.
+SD=Front Panel Lockout Volume is On
+RE=Front Panel Lockout Volume On
+HS=Front Panel Lockout Volume is On
+]
+[
+ObjTp=Dp
+H=83
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout Channel and Volume is||1
+FD2=On.
+SD=Front Panel Lockout Channel and Volume is On
+RE=Front Panel Lockout Channel and Volume On
+HS=Front Panel Lockout Channel and Volume is On
+]
+[
+ObjTp=Dp
+H=84
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout Power is On.
+SD=Front Panel Lockout Power is On
+RE=Front Panel Lockout Power On
+HS=Front Panel Lockout Power is On
+]
+[
+ObjTp=Dp
+H=85
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout Channel and Power is On.
+SD=Front Panel Lockout Channel and Power is On
+RE=Front Panel Lockout Channel and Power On
+HS=Front Panel Lockout Channel and Power is On
+]
+[
+ObjTp=Dp
+H=86
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout Volume and Power is On.
+SD=Front Panel Lockout Volume and Power is On
+RE=Front Panel Lockout Volume and Power On
+HS=Front Panel Lockout Volume and Power is On
+]
+[
+ObjTp=Dp
+H=87
+Tp=3
+DT=1
+FD1=High to indicate that Front Panel Lockout All is On.
+SD=Front Panel Lockout All is On
+RE=Front Panel Lockout All On
+HS=Front Panel Lockout All is On
+]
+[
+ObjTp=Dp
+H=88
+Tp=3
+DT=1
+FD1=High to indicate that Received Resolution 1080i is On.
+SD=Received Resolution 1080i is On
+RE=Received Resolution 1080i On
+HS=Received Resolution 1080i is On
+]
+[
+ObjTp=Dp
+H=89
+Tp=3
+DT=1
+FD1=High to indicate that Received Resolution 720p is On.
+SD=Received Resolution 720p is On
+RE=Received Resolution 720p On
+HS=Received Resolution 720p is On
+]
+[
+ObjTp=Dp
+H=90
+Tp=3
+DT=1
+FD1=High to indicate that Received Resolution 480p is On.
+SD=Received Resolution 480p is On
+RE=Received Resolution 480p On
+HS=Received Resolution 480p is On
+]
+[
+ObjTp=Dp
+H=91
+Tp=3
+DT=1
+FD1=High to indicate that Received Resolution 480i is On.
+SD=Received Resolution 480i is On
+RE=Received Resolution 480i On
+HS=Received Resolution 480i is On
+]
+[
+ObjTp=Dp
+H=92
+Tp=3
+DT=1
+FD1=High to indicate that Received Resolution No Signal is On.
+SD=Received Resolution No Signal is On
+RE=Received Resolution No Signal On
+HS=Received Resolution No Signal is On
+]
+[
+ObjTp=Dp
+H=93
+Tp=3
+DT=1
+FD1=High to indicate that Output Setting 1080i is On.
+SD=Output Setting 1080i is On
+RE=Output Setting 1080i On
+HS=Output Setting 1080i is On
+]
+[
+ObjTp=Dp
+H=94
+Tp=3
+DT=1
+FD1=High to indicate that Output Setting 720p is On.
+SD=Output Setting 720p is On
+RE=Output Setting 720p On
+HS=Output Setting 720p is On
+]
+[
+ObjTp=Dp
+H=95
+Tp=3
+DT=1
+FD1=High to indicate that Output Setting 480p is On.
+SD=Output Setting 480p is On
+RE=Output Setting 480p On
+HS=Output Setting 480p is On
+]
+[
+ObjTp=Dp
+H=96
+Tp=3
+DT=1
+FD1=High to indicate that Output Setting 480i is On.
+SD=Output Setting 480i is On
+RE=Output Setting 480i On
+HS=Output Setting 480i is On
+]
+[
+ObjTp=Dp
+H=97
+Tp=3
+DT=1
+FD1=High to indicate that Video Detected is On.
+SD=Video Detected is On
+RE=Video Detected On
+HS=Video Detected is On
+]
+[
+ObjTp=Dp
+H=98
+Tp=3
+DT=1
+FD1=High to indicate that AV Detected is On.
+SD=AV Detected is On
+RE=AV Detected On
+HS=AV Detected is On
+]
+[
+ObjTp=Dp
+H=99
+Tp=3
+DT=1
+FD1=High to indicate that Label Detected is On.
+SD=Label Detected is On
+RE=Label Detected On
+HS=Label Detected is On
+]
+[
+ObjTp=Dp
+H=100
+Tp=3
+DT=1
+FD1=High to indicate that IR Normal is On.
+SD=IR Normal is On
+RE=IR Normal On
+HS=IR Normal is On
+]
+[
+ObjTp=Dp
+H=101
+Tp=3
+DT=1
+FD1=High to indicate that IR Normal is Off.
+SD=IR Normal is Off
+RE=IR Normal Off
+HS=IR Normal is Off
+]
+[
+ObjTp=Dp
+H=102
+Tp=1
+FD1=Channel Preset 1
+SD=Channel Preset 1
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=103
+Tp=3
+DT=1
+FD1=High to indicate that Video Mute is On.
+SD=Video Mute is On
+RE=Video Mute On
+HS=Video Mute is On
+]
+[
+ObjTp=Dp
+H=104
+Tp=3
+DT=1
+FD1=High to indicate that Video Mute is Off.
+SD=Video Mute is Off
+RE=Video Mute Off
+HS=Video Mute is Off
+]
+[
+ObjTp=Dp
+H=105
+Tp=3
+DT=1
+FD1=High to indicate that No RF Detected is On.
+SD=No RF Detected is On
+RE=No RF Detected On
+HS=No RF Detected is On
+]
+[
+ObjTp=Dp
+H=106
+Tp=3
+DT=1
+FD1=High to indicate that Get Status is On.
+SD=Get Status is On
+RE=Get Status On
+HS=Get Status is On
+]
+[
+ObjTp=Dp
+H=107
+Tp=6
+DT=4
+FD1=The serial data received from the device on its RS232 data line.
+SD=The serial data received from the device on its RS232 data line.
+]
+[
+ObjTp=Dp
+H=108
+Tp=2
+DT=1
+FD1=Channel Up
+SD=Channel Up
+Trg=1
+Cmd=33
+]
+[
+ObjTp=Dp
+H=109
+Tp=2
+DT=1
+FD1=Channel Down
+SD=Channel Down
+Trg=1
+Cmd=32
+]
+[
+ObjTp=Dp
+H=110
+Tp=6
+DT=4
+FD1=Channel Presets Text In
+SD=Channel Presets Text In
+Nt1=Channel Presets Text In
+]
+[
+ObjTp=Dp
+H=111
+Tp=2
+DT=1
+SD=Zone 3 Volume Up
+Trg=1
+]
+[
+ObjTp=Dp
+H=112
+Tp=2
+DT=1
+SD=Zone 3 Volume Down
+Trg=1
+]
+[
+ObjTp=Dp
+H=113
+Tp=2
+DT=1
+SD=Zone 3 Volume Mute On
+Trg=1
+]
+[
+ObjTp=Dp
+H=114
+Tp=2
+DT=1
+SD=Zone 3 Volume Mute Off
+Trg=1
+]
+[
+ObjTp=Dp
+H=115
+Tp=2
+DT=1
+SD=Zone 3 Volume Mute Toggle
+Trg=1
+]
+[
+ObjTp=Dp
+H=116
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 0
+Trg=1
+]
+[
+ObjTp=Dp
+H=117
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 1
+Trg=1
+]
+[
+ObjTp=Dp
+H=118
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=119
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 3
+Trg=1
+]
+[
+ObjTp=Dp
+H=120
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 4
+Trg=1
+]
+[
+ObjTp=Dp
+H=121
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 5
+Trg=1
+]
+[
+ObjTp=Dp
+H=122
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 6
+Trg=1
+]
+[
+ObjTp=Dp
+H=123
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 7
+Trg=1
+]
+[
+ObjTp=Dp
+H=124
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 8
+Trg=1
+]
+[
+ObjTp=Dp
+H=125
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key 9
+Trg=1
+]
+[
+ObjTp=Dp
+H=126
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key Backspace
+Trg=1
+]
+[
+ObjTp=Dp
+H=127
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key Clear
+Trg=1
+]
+[
+ObjTp=Dp
+H=128
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key Up
+Trg=1
+]
+[
+ObjTp=Dp
+H=129
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key Down
+Trg=1
+]
+[
+ObjTp=Dp
+H=130
+Tp=2
+DT=1
+SD=Zone 3 Tuner Key Enter
+Trg=1
+]
+[
+ObjTp=Dp
+H=131
+Tp=2
+DT=1
+FD1=Keypad Off Air
+SD=Keypad Off Air
+Trg=1
+]
+[
+ObjTp=Dp
+H=132
+Tp=2
+DT=1
+FD1=Keypad Off Air/Cable Cycle
+SD=Keypad Off Air/Cable Cycle
+Trg=1
+]
+[
+ObjTp=Dp
+H=133
+Tp=2
+DT=1
+FD1=Tuning Format IRC
+SD=Tuning Format IRC
+Trg=1
+]
+[
+ObjTp=Dp
+H=134
+Tp=2
+DT=1
+FD1=Tuning Format HRC
+SD=Tuning Format HRC
+Trg=1
+]
+[
+ObjTp=Dp
+H=135
+Tp=2
+DT=1
+FD1=Tuning Format Cable Auto
+SD=Tuning Format Cable Auto
+Trg=1
+]
+[
+ObjTp=Dp
+H=136
+Tp=2
+DT=1
+FD1=Keypad 0
+SD=Keypad 0
+Trg=1
+Cmd=3
+]
+[
+ObjTp=Dp
+H=137
+Tp=2
+DT=1
+FD1=Keypad 1
+SD=Keypad 1
+Trg=1
+Cmd=4
+]
+[
+ObjTp=Dp
+H=138
+Tp=2
+DT=1
+FD1=Keypad 2
+SD=Keypad 2
+Trg=1
+Cmd=5
+]
+[
+ObjTp=Dp
+H=139
+Tp=2
+DT=1
+FD1=Keypad 3
+SD=Keypad 3
+Trg=1
+Cmd=6
+]
+[
+ObjTp=Dp
+H=140
+Tp=3
+DT=1
+FD1=High to indicate that Power is On.
+SD=Power is On
+RE=Power On
+HS=Power is On
+]
+[
+ObjTp=Dp
+H=141
+Tp=3
+DT=1
+FD1=High to indicate that Power is Off.
+SD=Power is Off
+RE=Power Off
+HS=Power is Off
+]
+[
+ObjTp=Dp
+H=142
+Tp=2
+DT=1
+FD1=Keypad 4
+SD=Keypad 4
+Trg=1
+Cmd=7
+]
+[
+ObjTp=Dp
+H=143
+Tp=2
+DT=1
+FD1=Keypad 5
+SD=Keypad 5
+Trg=1
+Cmd=8
+]
+[
+ObjTp=Dp
+H=144
+Tp=2
+DT=1
+FD1=Keypad 6
+SD=Keypad 6
+Trg=1
+Cmd=9
+]
+[
+ObjTp=Dp
+H=145
+Tp=2
+DT=1
+FD1=Keypad 7
+SD=Keypad 7
+Trg=1
+Cmd=10
+]
+[
+ObjTp=Dp
+H=146
+Tp=2
+DT=1
+FD1=Keypad 8
+SD=Keypad 8
+Trg=1
+Cmd=11
+]
+[
+ObjTp=Dp
+H=147
+Tp=2
+DT=1
+FD1=Keypad 9
+SD=Keypad 9
+Trg=1
+Cmd=12
+]
+[
+ObjTp=Dp
+H=148
+Tp=2
+DT=1
+FD1=Keypad Clear
+SD=Keypad Clear
+Trg=1
+]
+[
+ObjTp=Dp
+H=149
+Tp=2
+DT=1
+FD1=Keypad Enter Select
+SD=Keypad Enter Select
+Trg=1
+Cmd=99
+]
+[
+ObjTp=Dp
+H=150
+Tp=2
+DT=1
+FD1=Keypad Dash -
+SD=Keypad Dash -
+Trg=1
+]
+[
+ObjTp=Dp
+H=151
+Tp=1
+FD1=Channel Preset 2
+SD=Channel Preset 2
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=152
+Tp=1
+FD1=Channel Preset 3
+SD=Channel Preset 3
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=153
+Tp=1
+FD1=Channel Preset 4
+SD=Channel Preset 4
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=154
+Tp=2
+DT=1
+FD1=Keypad Menu
+SD=Keypad Menu
+Trg=1
+Cmd=142
+]
+[
+ObjTp=Dp
+H=155
+Tp=2
+DT=1
+FD1=Keypad Freeze
+SD=Keypad Freeze
+Trg=1
+]
+[
+ObjTp=Dp
+H=156
+Tp=2
+DT=1
+FD1=Keypad Signal
+SD=Keypad Signal
+Trg=1
+]
+[
+ObjTp=Dp
+H=157
+Tp=2
+DT=1
+FD1=Keypad Ratio
+SD=Keypad Ratio
+Trg=1
+]
+[
+ObjTp=Dp
+H=158
+Tp=2
+DT=1
+FD1=Keypad Audio
+SD=Keypad Audio
+Trg=1
+]
+[
+ObjTp=Dp
+H=159
+Tp=2
+DT=1
+FD1=Keypad Favorite
+SD=Keypad Favorite
+Trg=1
+]
+[
+ObjTp=Dp
+H=160
+Tp=2
+DT=1
+FD1=Keypad List
+SD=Keypad List
+Trg=1
+]
+[
+ObjTp=Dp
+H=161
+Tp=2
+DT=1
+FD1=Keypad Add/Delete Channel
+SD=Keypad Add/Delete Channel
+Trg=1
+]
+[
+ObjTp=Dp
+H=162
+Tp=2
+DT=1
+FD1=Keypad Info
+SD=Keypad Info
+Trg=1
+]
+[
+ObjTp=Dp
+H=163
+Tp=2
+DT=1
+FD1=Keypad Previous Channel
+SD=Keypad Previous Channel
+Trg=1
+Cmd=136
+]
+[
+ObjTp=Dp
+H=164
+Tp=1
+FD1=Channel Preset 5
+SD=Channel Preset 5
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=165
+Tp=2
+DT=1
+FD1=Keypad Arrow Right
+SD=Keypad Arrow Right
+Trg=1
+Cmd=191
+]
+[
+ObjTp=Dp
+H=166
+Tp=2
+DT=1
+FD1=Keypad Arrow Left
+SD=Keypad Arrow Left
+Trg=1
+Cmd=138
+]
+[
+ObjTp=Dp
+H=167
+Tp=2
+DT=1
+FD1=Keypad Arrow Up
+SD=Keypad Arrow Up
+Trg=1
+Cmd=236
+]
+[
+ObjTp=Dp
+H=168
+Tp=2
+DT=1
+FD1=Keypad Arrow Down
+SD=Keypad Arrow Down
+Trg=1
+Cmd=96
+]
+[
+ObjTp=Dp
+H=169
+Tp=2
+DT=1
+FD1=Keypad Enter Select 2
+SD=Keypad Enter Select 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=170
+Tp=2
+DT=1
+FD1=Keypad Exit
+SD=Keypad Exit
+Trg=1
+]
+[
+ObjTp=Dp
+H=171
+Tp=2
+DT=1
+FD1=Closed Caption On
+SD=Closed Caption On
+Trg=1
+]
+[
+ObjTp=Dp
+H=172
+Tp=2
+DT=1
+FD1=Closed Caption Off
+SD=Closed Caption Off
+Trg=1
+]
+[
+ObjTp=Dp
+H=173
+Tp=2
+DT=1
+FD1=Closed Caption 1
+SD=Closed Caption 1
+Trg=1
+]
+[
+ObjTp=Dp
+H=174
+Tp=2
+DT=1
+FD1=Closed Caption 2
+SD=Closed Caption 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=175
+Tp=2
+DT=1
+FD1=Closed Caption 3
+SD=Closed Caption 3
+Trg=1
+]
+[
+ObjTp=Dp
+H=176
+Tp=2
+DT=1
+FD1=Closed Caption 4
+SD=Closed Caption 4
+Trg=1
+]
+[
+ObjTp=Dp
+H=177
+Tp=2
+DT=1
+FD1=Digital Caption 1
+SD=Digital Caption 1
+Trg=1
+]
+[
+ObjTp=Dp
+H=178
+Tp=2
+DT=1
+FD1=Digital Caption 2
+SD=Digital Caption 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=179
+Tp=2
+DT=1
+FD1=Digital Caption 3
+SD=Digital Caption 3
+Trg=1
+]
+[
+ObjTp=Dp
+H=180
+Tp=2
+DT=1
+FD1=Digital Caption 4
+SD=Digital Caption 4
+Trg=1
+]
+[
+ObjTp=Dp
+H=181
+Tp=2
+DT=1
+FD1=Digital Caption 5
+SD=Digital Caption 5
+Trg=1
+]
+[
+ObjTp=Dp
+H=182
+Tp=2
+DT=1
+FD1=Digital Caption 6
+SD=Digital Caption 6
+Trg=1
+]
+[
+ObjTp=Dp
+H=183
+Tp=2
+DT=1
+FD1=Keypad Format Resolution 1080i
+SD=Keypad Format Resolution 1080i
+Trg=1
+]
+[
+ObjTp=Dp
+H=184
+Tp=2
+DT=1
+FD1=Keypad Format Resolution 720p
+SD=Keypad Format Resolution 720p
+Trg=1
+]
+[
+ObjTp=Dp
+H=185
+Tp=2
+DT=1
+FD1=Keypad Format Resolution 480p
+SD=Keypad Format Resolution 480p
+Trg=1
+]
+[
+ObjTp=Dp
+H=186
+Tp=2
+DT=1
+FD1=Keypad Format Resolution 480i
+SD=Keypad Format Resolution 480i
+Trg=1
+]
+[
+ObjTp=Dp
+H=187
+Tp=2
+DT=1
+FD1=Keypad Format Resoltuion RGB
+SD=Keypad Format Resoltuion RGB
+Trg=1
+]
+[
+ObjTp=Dp
+H=188
+Tp=2
+DT=1
+FD1=Keypad Format Resolution YPbPr
+SD=Keypad Format Resolution YPbPr
+Trg=1
+]
+[
+ObjTp=Dp
+H=189
+Tp=1
+FD1=Channel Preset 6
+SD=Channel Preset 6
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=190
+Tp=1
+FD1=Channel Preset 7
+SD=Channel Preset 7
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=191
+Tp=1
+FD1=Channel Preset 8
+SD=Channel Preset 8
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=192
+Tp=2
+DT=1
+FD1=Keypad Ratio 16x9 Pillar
+SD=Keypad Ratio 16x9 Pillar
+Trg=1
+]
+[
+ObjTp=Dp
+H=193
+Tp=2
+DT=1
+FD1=Keypad Ratio 4x3 Letter
+SD=Keypad Ratio 4x3 Letter
+Trg=1
+]
+[
+ObjTp=Dp
+H=194
+Tp=2
+DT=1
+FD1=Keypad Ratio 16x9 Full Wide
+SD=Keypad Ratio 16x9 Full Wide
+Trg=1
+]
+[
+ObjTp=Dp
+H=195
+Tp=2
+DT=1
+FD1=Keypad Ratio 4x3 Full
+SD=Keypad Ratio 4x3 Full
+Trg=1
+]
+[
+ObjTp=Dp
+H=196
+Tp=2
+DT=1
+FD1=Keypad Ratio 16x9 V Zoom
+SD=Keypad Ratio 16x9 V Zoom
+Trg=1
+]
+[
+ObjTp=Dp
+H=197
+Tp=2
+DT=1
+FD1=Keypad Ratio 4x3 H Zoom
+SD=Keypad Ratio 4x3 H Zoom
+Trg=1
+]
+[
+ObjTp=Dp
+H=198
+Tp=2
+DT=1
+FD1=Keypad AC-3 Dolby 5.1
+SD=Keypad AC-3 Dolby 5.1
+Trg=1
+]
+[
+ObjTp=Dp
+H=199
+Tp=2
+DT=1
+FD1=Keypad PCM
+SD=Keypad PCM
+Trg=1
+]
+[
+ObjTp=Dp
+H=200
+Tp=2
+DT=1
+FD1=Mute Toggle
+SD=Mute Toggle
+Trg=1
+Cmd=157
+]
+[
+ObjTp=Dp
+H=201
+Tp=2
+DT=1
+FD1=Volume Up
+SD=Volume Up
+Trg=1
+Cmd=244
+]
+[
+ObjTp=Dp
+H=202
+Tp=2
+DT=1
+FD1=Volume Down
+SD=Volume Down
+Trg=1
+Cmd=243
+]
+[
+ObjTp=Dp
+H=203
+Tp=2
+DT=1
+FD1=Keypad PCM Variable Bit Rate
+SD=Keypad PCM Variable Bit Rate
+Trg=1
+]
+[
+ObjTp=Dp
+H=204
+Tp=2
+DT=1
+FD1=Keypad Display 16x9
+SD=Keypad Display 16x9
+Trg=1
+]
+[
+ObjTp=Dp
+H=205
+Tp=2
+DT=1
+FD1=Keypad Display 4x3
+SD=Keypad Display 4x3
+Trg=1
+]
+[
+ObjTp=Dp
+H=206
+Tp=2
+DT=1
+FD1=Keypad Guide
+SD=Keypad Guide
+Trg=1
+Cmd=113
+]
+[
+ObjTp=Dp
+H=207
+Tp=2
+DT=1
+FD1=Front Panel Unlock
+SD=Front Panel Unlock
+Trg=1
+]
+[
+ObjTp=Dp
+H=208
+Tp=2
+DT=1
+FD1=Front Panel Lockout Channel
+SD=Front Panel Lockout Channel
+Trg=1
+]
+[
+ObjTp=Dp
+H=209
+Tp=2
+DT=1
+FD1=Front Panel Lockout Volume
+SD=Front Panel Lockout Volume
+Trg=1
+]
+[
+ObjTp=Dp
+H=210
+Tp=2
+DT=1
+FD1=Front Panel Lockout Channel and Volume
+SD=Front Panel Lockout Channel and Volume
+Trg=1
+]
+[
+ObjTp=Dp
+H=211
+Tp=2
+DT=1
+FD1=Front Panel Lockout Power
+SD=Front Panel Lockout Power
+Trg=1
+]
+[
+ObjTp=Dp
+H=212
+Tp=2
+DT=1
+FD1=Front Panel Lockout Channel and Power
+SD=Front Panel Lockout Channel and Power
+Trg=1
+]
+[
+ObjTp=Dp
+H=213
+Tp=2
+DT=1
+FD1=Front Panel Lockout Volume and Power
+SD=Front Panel Lockout Volume and Power
+Trg=1
+]
+[
+ObjTp=Dp
+H=214
+Tp=2
+DT=1
+FD1=Front Panel Lockout All
+SD=Front Panel Lockout All
+Trg=1
+]
+[
+ObjTp=Dp
+H=215
+Tp=2
+DT=1
+FD1=Initialize Settings
+SD=Initialize Settings
+Nt1=At startup, it is recommended to poll settings once to synchronize||1
+Nt2=unit to control system.
+Trg=1
+]
+[
+ObjTp=Dp
+H=217
+Tp=1
+FD1=Channel Preset 9
+SD=Channel Preset 9
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=218
+Tp=1
+FD1=Channel Preset 10
+SD=Channel Preset 10
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=219
+Tp=1
+FD1=Channel Preset 11
+SD=Channel Preset 11
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=220
+Tp=1
+FD1=Channel Preset 12
+SD=Channel Preset 12
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=221
+Tp=1
+FD1=Channel Preset 13
+SD=Channel Preset 13
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=222
+Tp=1
+FD1=Channel Preset 14
+SD=Channel Preset 14
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=223
+Tp=1
+FD1=Channel Preset 15
+SD=Channel Preset 15
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=224
+Tp=1
+FD1=Channel Preset 16
+SD=Channel Preset 16
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=225
+Tp=1
+FD1=Channel Preset 17
+SD=Channel Preset 17
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=226
+Tp=1
+FD1=Channel Preset 18
+SD=Channel Preset 18
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=227
+Tp=1
+FD1=Channel Preset 19
+SD=Channel Preset 19
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=228
+Tp=1
+FD1=Channel Preset 20
+SD=Channel Preset 20
+Nt1=These presets are within the module through the parameter. You can||1
+Nt2=also program as many presets as you like outside the module (see||1
+Nt3=demo).
+NoS=FALSE
+Sgn=0
+]
+[
+ObjTp=Dp
+H=229
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 1 is On.
+SD=Channel Preset 1 is On
+RE=Channel Preset 1 On
+HS=Channel Preset 1 is On
+]
+[
+ObjTp=Dp
+H=230
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 2 is On.
+SD=Channel Preset 2 is On
+RE=Channel Preset 2 On
+HS=Channel Preset 2 is On
+]
+[
+ObjTp=Dp
+H=231
+Tp=2
+DT=1
+FD1=Channel Preset 1
+SD=Channel Preset 1
+Trg=1
+]
+[
+ObjTp=Dp
+H=232
+Tp=2
+DT=1
+FD1=Channel Preset 2
+SD=Channel Preset 2
+Trg=1
+]
+[
+ObjTp=Dp
+H=233
+Tp=2
+DT=1
+FD1=Channel Preset 3
+SD=Channel Preset 3
+Trg=1
+]
+[
+ObjTp=Dp
+H=234
+Tp=2
+DT=1
+FD1=Channel Preset 4
+SD=Channel Preset 4
+Trg=1
+]
+[
+ObjTp=Dp
+H=235
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 7 is On.
+SD=Channel Preset 7 is On
+RE=Channel Preset 7 On
+HS=Channel Preset 7 is On
+]
+[
+ObjTp=Dp
+H=236
+Tp=2
+DT=1
+FD1=Channel Preset 6
+SD=Channel Preset 6
+Trg=1
+]
+[
+ObjTp=Dp
+H=237
+Tp=2
+DT=1
+FD1=Channel Preset 7
+SD=Channel Preset 7
+Trg=1
+]
+[
+ObjTp=Dp
+H=238
+Tp=2
+DT=1
+FD1=Channel Preset 8
+SD=Channel Preset 8
+Trg=1
+]
+[
+ObjTp=Dp
+H=239
+Tp=2
+DT=1
+FD1=Channel Preset 9
+SD=Channel Preset 9
+Trg=1
+]
+[
+ObjTp=Dp
+H=240
+Tp=2
+DT=1
+FD1=Channel Preset 10
+SD=Channel Preset 10
+Trg=1
+]
+[
+ObjTp=Dp
+H=241
+Tp=2
+DT=1
+FD1=Channel Preset 11
+SD=Channel Preset 11
+Trg=1
+]
+[
+ObjTp=Dp
+H=242
+Tp=2
+DT=1
+FD1=Channel Preset 12
+SD=Channel Preset 12
+Trg=1
+]
+[
+ObjTp=Dp
+H=243
+Tp=2
+DT=1
+FD1=Channel Preset 13
+SD=Channel Preset 13
+Trg=1
+]
+[
+ObjTp=Dp
+H=244
+Tp=2
+DT=1
+FD1=Channel Preset 14
+SD=Channel Preset 14
+Trg=1
+]
+[
+ObjTp=Dp
+H=245
+Tp=2
+DT=1
+FD1=Channel Preset 15
+SD=Channel Preset 15
+Trg=1
+]
+[
+ObjTp=Dp
+H=246
+Tp=2
+DT=1
+FD1=Channel Preset 16
+SD=Channel Preset 16
+Trg=1
+]
+[
+ObjTp=Dp
+H=247
+Tp=2
+DT=1
+FD1=Channel Preset 17
+SD=Channel Preset 17
+Trg=1
+]
+[
+ObjTp=Dp
+H=248
+Tp=2
+DT=1
+FD1=Channel Preset 18
+SD=Channel Preset 18
+Trg=1
+]
+[
+ObjTp=Dp
+H=249
+Tp=2
+DT=1
+FD1=Channel Preset 19
+SD=Channel Preset 19
+Trg=1
+]
+[
+ObjTp=Dp
+H=250
+Tp=2
+DT=1
+FD1=Channel Preset 20
+SD=Channel Preset 20
+Trg=1
+]
+[
+ObjTp=Dp
+H=251
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 3 is On.
+SD=Channel Preset 3 is On
+RE=Channel Preset 3 On
+HS=Channel Preset 3 is On
+]
+[
+ObjTp=Dp
+H=252
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 4 is On.
+SD=Channel Preset 4 is On
+RE=Channel Preset 4 On
+HS=Channel Preset 4 is On
+]
+[
+ObjTp=Dp
+H=253
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 5 is On.
+SD=Channel Preset 5 is On
+RE=Channel Preset 5 On
+HS=Channel Preset 5 is On
+]
+[
+ObjTp=Dp
+H=254
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 6 is On.
+SD=Channel Preset 6 is On
+RE=Channel Preset 6 On
+HS=Channel Preset 6 is On
+]
+[
+ObjTp=Dp
+H=255
+Tp=2
+DT=1
+FD1=Channel Preset 5
+SD=Channel Preset 5
+Trg=1
+]
+[
+ObjTp=Dp
+H=256
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 8 is On.
+SD=Channel Preset 8 is On
+RE=Channel Preset 8 On
+HS=Channel Preset 8 is On
+]
+[
+ObjTp=Dp
+H=257
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 9 is On.
+SD=Channel Preset 9 is On
+RE=Channel Preset 9 On
+HS=Channel Preset 9 is On
+]
+[
+ObjTp=Dp
+H=258
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 10 is On.
+SD=Channel Preset 10 is On
+RE=Channel Preset 10 On
+HS=Channel Preset 10 is On
+]
+[
+ObjTp=Dp
+H=259
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 11 is On.
+SD=Channel Preset 11 is On
+RE=Channel Preset 11 On
+HS=Channel Preset 11 is On
+]
+[
+ObjTp=Dp
+H=260
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 12 is On.
+SD=Channel Preset 12 is On
+RE=Channel Preset 12 On
+HS=Channel Preset 12 is On
+]
+[
+ObjTp=Dp
+H=261
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 13 is On.
+SD=Channel Preset 13 is On
+RE=Channel Preset 13 On
+HS=Channel Preset 13 is On
+]
+[
+ObjTp=Dp
+H=262
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 14 is On.
+SD=Channel Preset 14 is On
+RE=Channel Preset 14 On
+HS=Channel Preset 14 is On
+]
+[
+ObjTp=Dp
+H=263
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 15 is On.
+SD=Channel Preset 15 is On
+RE=Channel Preset 15 On
+HS=Channel Preset 15 is On
+]
+[
+ObjTp=Dp
+H=264
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 16 is On.
+SD=Channel Preset 16 is On
+RE=Channel Preset 16 On
+HS=Channel Preset 16 is On
+]
+[
+ObjTp=Dp
+H=265
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 17 is On.
+SD=Channel Preset 17 is On
+RE=Channel Preset 17 On
+HS=Channel Preset 17 is On
+]
+[
+ObjTp=Dp
+H=266
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 18 is On.
+SD=Channel Preset 18 is On
+RE=Channel Preset 18 On
+HS=Channel Preset 18 is On
+]
+[
+ObjTp=Dp
+H=267
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 19 is On.
+SD=Channel Preset 19 is On
+RE=Channel Preset 19 On
+HS=Channel Preset 19 is On
+]
+[
+ObjTp=Dp
+H=268
+Tp=3
+DT=1
+FD1=High to indicate that Channel Preset 20 is On.
+SD=Channel Preset 20 is On
+RE=Channel Preset 20 On
+HS=Channel Preset 20 is On
+]
+[
+ObjTp=Dp
+H=269
+Tp=7
+DT=4
+FD1=The serial data sent to the device on its RS232 data line.
+SD=The serial data sent to the device on its RS232 data line.
+]
+[
+ObjTp=Dp
+H=352
+Tp=7
+DT=4
+SD=Main Tuner Frequency$
+]
+[
+ObjTp=Dp
+H=353
+Tp=3
+DT=1
+RE=Main Volume Mute Off
+HS=Main Volume Mute is Off
+]
+[
+ObjTp=Dp
+H=354
+Tp=3
+DT=1
+RE=Main Volume Mute On
+HS=Main Volume Mute is On
+]
+[
+ObjTp=Dp
+H=355
+Tp=5
+SD=Main Volume Bar
+DNF=1
+]
+[
+ObjTp=Dp
+H=356
+Tp=3
+DT=1
+RE=Main Input Sirius
+HS=Main Input is Sirius
+]
+[
+ObjTp=Dp
+H=357
+Tp=3
+DT=1
+RE=Main Input XM
+HS=Main Input is XM
+]
+[
+ObjTp=Dp
+H=358
+Tp=3
+DT=1
+RE=Main Input Multi Channel
+HS=Main Input is Multi Channel
+]
+[
+ObjTp=Dp
+H=359
+Tp=3
+DT=1
+RE=Main Input USB
+HS=Main Input is USB
+]
+[
+ObjTp=Dp
+H=360
+Tp=3
+DT=1
+RE=Main Input Internet Radio
+HS=Main Input is Internet Radio
+]
+[
+ObjTp=Dp
+H=361
+Tp=3
+DT=1
+RE=Main Input Music Server
+HS=Main Input is Music Server
+]
+[
+ObjTp=Dp
+H=362
+Tp=3
+DT=1
+RE=Main Input Tuner
+HS=Main Input is Tuner
+]
+[
+ObjTp=Dp
+H=363
+Tp=3
+DT=1
+RE=Main Input AM
+HS=Main Input is AM
+]
+[
+ObjTp=Dp
+H=364
+Tp=3
+DT=1
+RE=Main Input FM
+HS=Main Input is FM
+]
+[
+ObjTp=Dp
+H=365
+Tp=3
+DT=1
+RE=Main Input CD
+HS=Main Input is CD
+]
+[
+ObjTp=Dp
+H=366
+Tp=3
+DT=1
+RE=Main Input Phono
+HS=Main Input is Phono
+]
+[
+ObjTp=Dp
+H=367
+Tp=3
+DT=1
+RE=Main Input Tape 2
+HS=Main Input is Tape 2
+]
+[
+ObjTp=Dp
+H=368
+Tp=3
+DT=1
+RE=Main Input Tape 1
+HS=Main Input is Tape 1
+]
+[
+ObjTp=Dp
+H=369
+Tp=3
+DT=1
+RE=Main Input DVD
+HS=Main Input is DVD
+]
+[
+ObjTp=Dp
+H=370
+Tp=3
+DT=1
+RE=Main Input Video 7
+HS=Main Input is Video 7
+]
+[
+ObjTp=Dp
+H=371
+Tp=3
+DT=1
+RE=Main Input Video 6
+HS=Main Input is Video 6
+]
+[
+ObjTp=Dp
+H=372
+Tp=3
+DT=1
+RE=Main Input Video 5 (AUX 2)
+HS=Main Input is Video 5 (AUX 2)
+]
+[
+ObjTp=Dp
+H=373
+Tp=3
+DT=1
+RE=Main Input Video 4 (AUX 1)
+HS=Main Input is Video 4 (AUX 1)
+]
+[
+ObjTp=Dp
+H=374
+Tp=3
+DT=1
+RE=Main Input Video 3 (Game/TV)
+HS=Main Input is Video 3 (Game/TV)
+]
+[
+ObjTp=Dp
+H=375
+Tp=3
+DT=1
+RE=Main Input Video 2 (CBL/SAT)
+HS=Main Input is Video 2 (CBL/SAT)
+]
+[
+ObjTp=Dp
+H=376
+Tp=3
+DT=1
+RE=Main Input Video 1 (VCR/DVR)
+HS=Main Input is Video 1 (VCR/DVR)
+]
+[
+ObjTp=Dp
+H=377
+Tp=3
+DT=1
+RE=Main Power Off
+HS=Main Power is Off
+]
+[
+ObjTp=Dp
+H=378
+Tp=3
+DT=1
+RE=Main Power On
+HS=Main Power is On
+]
+[
+ObjTp=FP
+]

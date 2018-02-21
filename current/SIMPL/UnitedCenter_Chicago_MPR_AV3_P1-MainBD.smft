@@ -1,0 +1,18 @@
+<Device Model="AV3">
+   <Network Type="Cresnet" Id="04">
+      <Device Model="GLS-PART-CN" DeviceId="97"/>
+   </Network>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="CEN-GWEXER" DeviceId="03">
+         <Network Type="RF">
+            <Device Model="TST-902" DeviceId="03" Name="RmA"/>
+            <Device Model="TST-902" DeviceId="13" Name="RmB"/>
+         </Network>
+      </Device>
+      <Device Model="TSW-752" DeviceId="04" Name="Cafe"/>
+      <Device Model="FT-TS600" DeviceId="08" Name="Fitness"/>
+      <Device Model="Core3 UI XPanel" DeviceId="09" Name="TST-902 - XPanel 2.0 Simulator"/>
+      <Device Model="DM-MD32x32" DeviceId="20"/>
+      <Device Model="Fusion Room" DeviceId="F1"/>
+   </Network>
+</Device>

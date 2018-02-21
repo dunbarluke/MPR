@@ -1,0 +1,495 @@
+[
+Version=1
+]
+[
+ObjTp=FSgntr
+Sgntr=UserMacro
+RelVrs=2.07.24
+IntStrVrs=2
+MinSMWVrs=0
+MinTIOVrs=0
+SavedBy=SMW2.07.24
+]
+[
+ObjTp=Hd
+S0Nd=1
+S1Nd=2
+SLNd=3
+PrNm=TGPulse.umc
+DbVr=18.0.8
+PgmNm=BC/BH
+DlrNm=HAVS
+CltNm=Toggling Flip-Flop with Pulsed and Latching Outputs
+McNm=TGPulse
+SmVr=381
+DvVr=381
+TpN1=1
+TpN2=2
+TpN3=3
+TpN4=4
+TpN5=5
+APg=1
+FpCS=0
+Cmn1=TGPulse.UMC Documentation            3/12/99   Brian Cantarini/Bobbi||1
+Cmn2=Hammack\\\\Toggling Flip-Flop with Pulsed and Latching Outputs\\
+Cmn3=\\How many times have you put a TOGGLE and an MMV symbol into a||1
+Cmn4=program and still \\needed a little something extra?  This User||1
+Cmn5=Macro not only allows the usual \\alternating functions (both latching||1
+Cmn6=and momentary) with feedback... It also \\allows you to decide to||1
+Cmn7=let the (complementary) momentary output occur on \\system initialization||1
+Cmn8=or choose to suppress it.  This means the internal TOGGLE \\symbol||1
+Cmn9=will still initialize with its OUT* output high, but you can selectively||1
+Cmn10=\\keep it from being output at system startup.\\\\--------------
+Cmn11=----------------------------------------------------------------
+Cmn12=---\\\\                     +-------------+ \\||B
+Cmn13=||3{{**{{ TGPULSE.UMC }}**}}\\                     {{**{{-------------}}**}}\\SET --
+Cmn14=-------------->{{**{{             }}**}}---->OUT_LATCH\\RESET ------------
+Cmn15=-->{{**{{             }}**}}---->OUT*_LATCH\\CLOCK -------------->{{**{{||7
+Cmn16=||6}}**}}---->OUT_PULSE\\KILL_START_PULSE---->{{**{{             }}**}}---->OUT*_PULSE\\
+Cmn17=||E{{**{{-------------}}**}}\\                     {{**{{ S-XXX||1
+Cmn18=||6}}**}}\\                     +-------------+\\\\\\Inputs:\\\\||2
+Cmn19=||3SET                Works like a standard TOGGLE symbol.\\\\||2
+Cmn20=||3RESET              Works like a standard TOGGLE symbol.\\\\||2
+Cmn21=||3CLOCK              Guess what?  This also works like a standard||1
+Cmn22=\\                        TOGGLE symbol.\\\\     KILL_START_PULSE||1
+Cmn23=||2At system initialization, the OUT*_LATCH \\||C
+Cmn24=||5and OUT*_PULSE macro outputs will go high \\||?
+Cmn25=||9if you place a 0 (zero) here.  Placing a \\||<
+Cmn26=||<1 (one) here suppresses the OUT*_PULSE at \\||8
+Cmn27=||@system initialization... The OUT*_PULSE \\||6
+Cmn28=||Bwill function normally five seconds after \\||2
+Cmn29=||Fsystem initialization. \\\\\\Parameter:\\\\
+Cmn30=||5PULSE_TIME(S)      To set the internal MMV symbol which creates||1
+Cmn31=\\                        the "_PULSE" outputs, enter a valid time||1
+Cmn32=value, \\                        such as 0.2s.\\\\     Hey!!!||3
+Cmn33=||:Be sure to place signal name "0" (zero) in all\\||6
+Cmn34=||Bunused macro inputs.\\\\\\Outputs:\\\\     OUT_LATCH||1
+Cmn35=||9Works like the OUT of a standard TOGGLE symbol.\\||6
+Cmn36=||BUseful for feedback and/or for status checks.\\
+Cmn37=\\     OUT*_LATCH         Works like the OUT* of a standard TOGGLE||1
+Cmn38=symbol.\\                        Useful for feedback and/or for||1
+Cmn39=status checks.\\\\     OUT_PULSE          Driven by the internal||1
+Cmn40=MMV symbol following\\                        positive-going output||1
+Cmn41=transitions of the \\                        internal TOGGLE.  Tie||1
+Cmn42=this output to the \\                        device you are controlling||1
+Cmn43=if it needs a \\                        momentary pulse.\\\\||4
+Cmn44=||1OUT*_PULSE         Driven by the internal MMV symbol following\\
+Cmn45=||Hpositive-going output transitions of the||1
+Cmn46=\\                        internal TOGGLE.  Tie this output to the||1
+Cmn47=\\                        device you are controlling if it needs||1
+Cmn48=a \\                        momentary pulse.\\||B
+Cmn49=||6This output may or may not pulse high at \\||?
+Cmn50=||9system initialization depending upon your \\||;
+Cmn51=||=KILL_START_PULSE input.\\\\\\Notes:  This macro is||1
+Cmn52=very handy for power on/off control, up/down items, \\        or||1
+Cmn53=other alternate action functions.  The ability to suppress \\||3
+Cmn54=||5the pulse output at startup is a useful bonus.  If for example||1
+Cmn55=\\        you are controlling a projection screen and you don't||1
+Cmn56=want it \\        to move when the system reboots, place a 1 on||1
+Cmn57=the macro's input.\\        \\        An interesting trivia item:
+Cmn58=||2This is the first macro development \\        task that Bobbi||1
+Cmn59=Hammack of HAVS was ever involved in.
+]
+[
+ObjTp=Bk
+Nm1=\
+Sx1=0
+Sy1=0
+Mx1=0
+]
+[
+ObjTp=Symbol
+Name=TGPulse
+Code=1
+SmplCName=TGPulse.umc
+Smpl-C=3
+Convertable=True
+CompilerTimePrecision=Single_Or_Double_Precision
+Hint=Toggling Flip-Flop with Pulsed and Latching Outputs
+SMWRev=0
+TIORev=0
+HelpID=1055
+APg=1
+NumFixedInputs=4
+NumFixedOutputs=4
+NumFixedParams=1
+MinVariableInputs=0
+MinVariableInputsList2=0
+MinVariableInputsList3=0
+MinVariableOutputs=0
+MinVariableOutputsList2=0
+MinVariableOutputsList3=0
+MinVariableParams=0
+SymbolTree=32
+ParamSigType1=Time
+InputCue1=SET
+InputCue2=RESET
+InputCue3=CLOCK
+InputCue4=KILL_START_PULSE
+OutputCue1=OUT_LATCH
+OutputCue2=OUT*_LATCH
+OutputCue3=OUT_PULSE
+OutputCue4=OUT*_PULSE
+ParamCue1=PULSE_TIME(S)
+FileName=TGPulse.umc
+]
+[
+ObjTp=Sm
+H=1
+SmC=157
+Nm=Central Control Modules
+CF=2
+n1I=1
+n1O=1
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=2
+SmC=157
+Nm=Network Modules
+CF=2
+n1I=1
+n1O=1
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=3
+SmC=157
+Nm=Ethernet
+CF=2
+n1I=1
+n1O=1
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=4
+SmC=156
+Nm=Logic
+CF=2
+mC=10
+C1=7
+C2=8
+C3=9
+C4=10
+C5=11
+C6=12
+C7=13
+C8=14
+C9=15
+C10=16
+]
+[
+ObjTp=Sm
+H=5
+SmC=157
+Nm=DefineArguments
+CF=2
+n1I=1
+n1O=1
+mC=1
+C1=6
+mI=1
+mO=1
+tO=1
+mP=1
+P1=
+]
+[
+ObjTp=Sm
+H=6
+SmC=55
+PrH=5
+CF=2
+n1I=4
+n1O=4
+mI=4
+I1=8
+I2=9
+I3=10
+I4=12
+mO=4
+tO=4
+O1=4
+O2=5
+O3=6
+O4=7
+mP=1
+P1=PULSE_TIME(S)
+]
+[
+ObjTp=Sm
+H=7
+SmC=13
+PrH=4
+CF=2
+n1I=3
+n1O=2
+Cmn1=||1Latching logic
+mI=3
+I1=8
+I2=9
+I3=10
+mO=2
+tO=2
+O1=13
+O2=14
+]
+[
+ObjTp=Sm
+H=8
+SmC=21
+PrH=4
+CF=2
+n1I=3
+n1O=2
+Cmn1=||1Pulse creation
+mI=3
+I2=13
+I3=14
+mO=2
+tO=2
+O1=15
+O2=16
+mP=1
+P1=#PULSE_TIME(S)
+]
+[
+ObjTp=Sm
+H=9
+SmC=4
+PrH=4
+CF=2
+n1I=1
+n1O=1
+Cmn1=||1Allow or Kill system startup pulses
+mI=1
+I1=12
+mO=1
+tO=1
+O1=17
+]
+[
+ObjTp=Sm
+H=10
+SmC=12
+PrH=4
+CF=2
+n1I=2
+n1O=2
+Cmn1=||1Allow or Kill logic
+mI=2
+I1=17
+I2=12
+mO=2
+tO=2
+O1=18
+O2=19
+]
+[
+ObjTp=Sm
+H=11
+SmC=20
+PrH=4
+CF=2
+n1I=2
+n1O=1
+Cmn1=||1Allow pulse at system startup
+mI=2
+I1=2
+I2=18
+mO=1
+tO=1
+O1=20
+]
+[
+ObjTp=Sm
+H=12
+SmC=20
+PrH=4
+CF=2
+n1I=3
+n1O=2
+Cmn1=||1Pulsed outputs. Can pulse on system startup
+mI=3
+I1=20
+I2=15
+I3=16
+mO=2
+tO=2
+O1=6
+O2=7
+]
+[
+ObjTp=Sm
+H=13
+SmC=16
+PrH=4
+CF=2
+n1I=2
+n1O=1
+Cmn1=||1Block output of pulses at system initialization
+mI=2
+I1=2
+mO=1
+tO=1
+O1=21
+mP=1
+P1=5.0s
+]
+[
+ObjTp=Sm
+H=14
+SmC=20
+PrH=4
+CF=2
+n1I=2
+n1O=1
+Cmn1=||1Kill pulse at system startup
+mI=2
+I1=19
+I2=21
+mO=1
+tO=1
+O1=22
+]
+[
+ObjTp=Sm
+H=15
+SmC=20
+PrH=4
+CF=2
+n1I=3
+n1O=2
+Cmn1=||1Pulsed outputs. Do not pulse on system startup
+mI=3
+I1=22
+I2=15
+I3=16
+mO=2
+tO=2
+O1=6
+O2=7
+]
+[
+ObjTp=Sm
+H=16
+SmC=20
+PrH=4
+CF=2
+n1I=3
+n1O=2
+Cmn1=||1Latched Outputs
+mI=3
+I1=2
+I2=13
+I3=14
+mO=2
+tO=2
+O1=4
+O2=5
+]
+[
+ObjTp=Sg
+H=4
+Nm=OUT_LATCH
+]
+[
+ObjTp=Sg
+H=5
+Nm=OUT*_LATCH
+]
+[
+ObjTp=Sg
+H=6
+Nm=OUT_PULSE
+]
+[
+ObjTp=Sg
+H=7
+Nm=OUT*_PULSE
+]
+[
+ObjTp=Sg
+H=8
+Nm=SET
+]
+[
+ObjTp=Sg
+H=9
+Nm=RESET
+]
+[
+ObjTp=Sg
+H=10
+Nm=CLOCK
+]
+[
+ObjTp=Sg
+H=12
+Nm=KILL_START_PULSE
+]
+[
+ObjTp=Sg
+H=13
+Nm=OUT_TG
+]
+[
+ObjTp=Sg
+H=14
+Nm=OUT_TG*
+]
+[
+ObjTp=Sg
+H=15
+Nm=OUT_MMV
+]
+[
+ObjTp=Sg
+H=16
+Nm=OUT_MMV*
+]
+[
+ObjTp=Sg
+H=17
+Nm=KILL_NOR
+]
+[
+ObjTp=Sg
+H=18
+Nm=KILL_NO_SR
+]
+[
+ObjTp=Sg
+H=19
+Nm=KILL_YES_SR
+]
+[
+ObjTp=Sg
+H=20
+Nm=SYS_INIT_1
+]
+[
+ObjTp=Sg
+H=21
+Nm=SYS_INIT_DLY
+]
+[
+ObjTp=Sg
+H=22
+Nm=SYS_INIT_DLY_BUF
+]
